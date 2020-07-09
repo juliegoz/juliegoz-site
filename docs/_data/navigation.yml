@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "News"
+    url: /news/
+  - title: "Resume"
+    url: /resume/
+  - title: "Production Photos"
+    url: /production-photos/
+  - title: "Contact"
+    url: /contact/
