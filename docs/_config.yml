@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Julieta Gozalo
+title: &name Julieta Gozalo
 email: juliegozalo@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  JULIETA GOZALO, ACTOR | SINGER | MUSICIAN
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: &description JULIETA GOZALO, ACTOR | SINGER | MUSICIAN
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://juliegoz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
+minimal_mistakes_skin: "air"
 
 # Build settings
 markdown: kramdown
@@ -28,6 +28,24 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

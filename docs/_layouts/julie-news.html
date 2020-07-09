@@ -1,7 +1,8 @@
 ---
 layout: archive
 ---
-<div class="carousel">
+{% include carousel.html height="50" unit="%" duration="7" %}
+<!-- <div class="carousel">
 	<div class="carousel_images">
 		{% for ns in site.data.news_snippets.snippets %}
 		  {% include news-snippet.html content=ns.description image=ns.image %}
@@ -23,4 +24,4 @@ layout: archive
   {% include archive-single.html %}
 {% endfor %}
 
-{% include paginator.html %}
+{% include paginator.html %} -->
