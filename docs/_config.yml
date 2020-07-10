@@ -19,7 +19,7 @@ description: &description JULIETA GOZALO, ACTOR | SINGER | MUSICIAN
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://juliegoz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "contrast"
 
 # Build settings
 markdown: kramdown
@@ -29,18 +29,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+atom_feed:
+  path : "" # blank (default) uses feed.xml
 
 # Sass/SCSS
 sass:

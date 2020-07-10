@@ -1,0 +1,15 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<div class="blurbs">
+	{% for b in page.blurbs %}
+		<div class="blurb">
+			<h3>{{ b.title }}</h3>
+			<p>{{ b.quote }}</p>
+			<p> - {{ b.source }}</p>
+		</div>
+	{% endfor %}
+</div>
