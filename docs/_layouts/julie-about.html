@@ -1,7 +1,14 @@
 ---
-layout: archive
+layout: posts
+<!-- image_about: /assets/images/IMG_0418_JPG.jpg -->
 ---
-{{ content }}
+<!-- {% capture img_abt %}{{ image_about }}{% endcapture %} -->
+<div class="about-text">
+	{{ content }}
+</div>
+<div class="about-image">
+    {% include figure image_path="/assets/images/108252167_219401549173989_2013790882833438291_n.jpg" %}
+</div>
 
 <!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
 

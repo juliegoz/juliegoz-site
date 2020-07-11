@@ -11,33 +11,64 @@
 	font-size: 12px;
 }
 
-.blurbs {    
-  text-align: justify;
+.layout--julie-about {
+	font-size: 12px;
+
+	.archive {
+	    align-content: center;
+	}
+
+	.about-text {
+	    padding-right: 1em;
+	    text-align: justify;
+
+		@include breakpoint($medium) {
+			width: 50%;
+			float: left;
+		}
+	}
+
+	.about-image {
+	    padding-left: 1em;
+
+    	figure {
+    		margin-top: 0;
+    	}
+
+		@include breakpoint($medium) {
+			width: 50%;
+			float: right;
+		}
+	}
 }
 
-.archive {
-  padding-right: 0px;
-  float: none;
-  width: 100% !important;
-  font-size: 12px;
+.layout--julie-home {
+	.archive {
+	  padding-right: 0px;
+	  float: none;
+	  width: 100% !important;
+	  font-size: 12px;
+	}
 
-  .blurb {    
-    max-width: 33%;
-    float: left;
+	.blurbs {    
+	  text-align: justify;
+	}
 
-    @include breakpoint($small) {
-      width: 100%
-    }
+	.blurb {    
+	    float: left;
 
-    @include breakpoint($medium) {
-      width: 33%
-    }
+	    @include breakpoint($small) {
+	      width: 100%;
+	      padding: 0;
+	    }
 
-    @include breakpoint($large) {
-      width: 33%
-    }
+	    @include breakpoint($medium) {
+	      width: 33%;
+	      padding: 20px;
+	    }
 
-    padding: 20px;
-}
-	
+	    @include breakpoint($large) {
+	      width: 33%
+	    }
+	}
 }
