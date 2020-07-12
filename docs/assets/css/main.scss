@@ -7,6 +7,32 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+// WEBSITE VARIABLES
+$main-color: #f29dd0;
+$darker-main-color: #b55a7a;
+$fade-in-length: .4s;
+$element-roundedness: 5px;
+
+a.site-title {
+	transition: color $fade-in-length ease-out;
+
+	&:hover {
+		color: $darker-main-color;
+		transition: color $fade-in-length ease-in;
+		text-decoration: none;
+	}
+}
+
+body {
+	h1, h3 {
+	color: $darker-main-color;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 20px;
+	}
+}
+
 .masthead__inner-wrap {
 	font-size: 12px;
 }
@@ -42,6 +68,60 @@
 	}
 }
 
+.title-image-wrapper {
+	overflow: hidden;
+	position: relative;
+
+	.text-button-wrapper {
+	    border-radius: $element-roundedness;
+	    text-align: center;
+	    top: 25%;
+    	transition: background $fade-in-length ease-out;
+    	margin-bottom: 3em;
+    	padding: 10px;
+
+	    // @include breakpoint($small) {
+	    // 	width: 100%;
+	    // 	padding: 0;
+	    // 	position: initial;
+	    // }
+
+
+	    @include breakpoint($medium) {
+	    	width: 45%;
+	        padding: 5em;
+	        position: absolute;
+	    	margin: 3em;
+	    }
+
+	    &:hover {
+	    	background-color: $main-color;
+	    	transition: background $fade-in-length ease-in;
+
+	    	.btn {
+	    		background-color: $darker-main-color;
+	    	}
+	    }
+
+	    .btn {
+	    	transition: background $fade-in-length ease-out;
+			
+			&:hover {
+				background-color: white;
+				transition: background $fade-in-length ease-in;
+			}
+	    }
+    }	
+
+	img { 
+	    @include breakpoint($medium) {
+			float: right;
+			width: 50%;
+	        margin: 5em;
+	    }
+	}
+}
+
 .layout--julie-home {
 	.archive {
 	  padding-right: 0px;
@@ -50,17 +130,55 @@
 	  font-size: 12px;
 	}
 
+	.page__hero {
+	    @include breakpoint($medium) {
+	      float: right;
+	      width: 50%;
+	    }
+
+	    @include breakpoint($large) {
+	      width: 50%
+	    }
+
+	}
+
+	.carousel-container {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#myCarousel {
+		margin: 1em;
+		background-color: $main-color;
+
+		.item {
+			// position: relative;
+			left: 31%;
+
+		    @include breakpoint($medium) {
+				left: 38%;
+		    }
+		}
+
+		img {
+			max-height: none !important;
+			max-width: 150px;
+
+		    @include breakpoint($medium) {
+		    	max-width: 300px !important;
+		    }
+		}
+	}
+
 	.blurbs {    
-	  text-align: justify;
+	  overflow: auto;
 	}
 
 	.blurb {    
 	    float: left;
-
-	    @include breakpoint($small) {
-	      width: 100%;
-	      padding: 0;
-	    }
+	    width: 100%;
+	    padding: 0;
 
 	    @include breakpoint($medium) {
 	      width: 33%;

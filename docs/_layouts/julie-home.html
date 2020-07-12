@@ -1,6 +1,7 @@
 ---
 layout: archive
 ---
+ {% include title_image.html %}
 
 {{ content }}
 
@@ -13,3 +14,32 @@ layout: archive
 		</div>
 	{% endfor %}
 </div>
+
+
+{% include carousel2.html %}
+<!-- {% include carousel.html height="50" unit="%" duration="7" %} -->
+
+
+<!-- <div class="carousel">
+	<div class="carousel_images">
+		{% for ns in site.data.news_snippets.snippets %}
+		  {% include news-snippet.html content=ns.description image=ns.image %}
+		{% endfor %}
+		helooooo
+	</div>
+</div>
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "News" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %} -->

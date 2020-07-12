@@ -1,8 +1,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "News"
-    url: /news/
   - title: "Resume"
     url: /resume/
   - title: "Production Photos"
