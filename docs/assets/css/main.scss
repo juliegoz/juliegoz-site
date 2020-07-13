@@ -25,11 +25,24 @@ a.site-title {
 }
 
 body {
-	h1, h3 {
-	color: $darker-main-color;
-	text-decoration: none;
-	font-weight: 300;
-	font-size: 20px;
+	h1, h2, h3 {
+		color: $darker-main-color;
+		text-decoration: none;
+	}
+
+	h1 {
+		font-weight: 400;
+		font-size: 28px;
+	}
+
+	h2, h3 {
+		font-weight: 300;
+		font-size: 18px;
+	}
+
+	h3 {
+		font-weight: 500;
+		font-size: 14px;
 	}
 }
 
@@ -80,13 +93,6 @@ body {
     	margin-bottom: 3em;
     	padding: 10px;
 
-	    // @include breakpoint($small) {
-	    // 	width: 100%;
-	    // 	padding: 0;
-	    // 	position: initial;
-	    // }
-
-
 	    @include breakpoint($medium) {
 	    	width: 45%;
 	        padding: 5em;
@@ -123,6 +129,7 @@ body {
 }
 
 .layout--julie-home {
+
 	.archive {
 	  padding-right: 0px;
 	  float: none;
@@ -148,26 +155,49 @@ body {
 		width: 100%;
 	}
 
-	#myCarousel {
+	.carousel-inner {
+        padding: 3em;
+        margin: 1em;
+	}
+
+	#news-carousel {
 		margin: 1em;
-		background-color: $main-color;
+
+		.carousel-indicators {
+			bottom: 0;
+		}
 
 		.item {
-			// position: relative;
-			left: 31%;
-
-		    @include breakpoint($medium) {
-				left: 38%;
-		    }
+			width: 75%;
+			margin: 0 auto;
 		}
 
 		img {
 			max-height: none !important;
-			max-width: 150px;
+			margin: 0 auto;
+			float: left;
 
 		    @include breakpoint($medium) {
-		    	max-width: 300px !important;
+				width: 50%;
 		    }
+		}
+
+		.item-caption {
+			float: right;
+			padding: 2em;
+
+		    @include breakpoint($medium) {
+				width: 50%;
+		    }
+		}
+
+		.item-date {
+			font-weight: 300;
+			font-style: italic;
+		}
+
+		.item-description {
+			padding-top: 1em;
 		}
 	}
 
