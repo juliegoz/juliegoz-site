@@ -14,8 +14,7 @@
     {% include_cached masthead.html %}
     <main>
       <div class="section-background">
-        <!-- <img data-src="{{ page.title_image_header.image }}" data-image="{{ page.title_image_header.image }}" data-image-dimensions="2165x2113" data-image-focal-point="0.4975598596919323,0.3425" data-load="false" data-parent-ratio="2.8" data-image-resolution="2500w" src="https://static1.squarespace.com/static/5f0d0139b03d202dccaca621/t/5f0d013ab03d202dccaca64f/1588141395713/IMG_1575.jpg"> -->
-        <img src="{{ page.fullpage_hero_image }}">
+        <img src="{{ site.baseurl }}{{ page.fullpage_hero_image }}">
 
       {% if page.title_image_header %}
         {% include title_image.html %}
