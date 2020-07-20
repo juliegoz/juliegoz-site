@@ -3,7 +3,7 @@ main:
     url: /about/
   - title: "Resume"
     url: /resume/
-  - title: "Production Photos"
-    url: /production-photos/
+  - title: "Media"
+    url: /media/
   - title: "Contact"
     url: /contact/

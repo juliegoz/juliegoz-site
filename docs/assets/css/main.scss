@@ -9,231 +9,384 @@
 
 
 // WEBSITE VARIABLES
-$main-color: #f29dd0;
-$darker-main-color: #b55a7a;
-$fade-in-length: .4s;
+$main-color: #e7aca9;
+$darker-main-color: #c98e8b;
+$fade-in-length: 0.5s;
 $element-roundedness: 5px;
 
-a.site-title {
-	transition: color $fade-in-length ease-out;
 
-	&:hover {
-		color: $darker-main-color;
-		transition: color $fade-in-length ease-in;
-		text-decoration: none;
-	}
+// TYPOGRAPHY OVERRIDES
+/* system typefaces */
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+/* serif typefaces */
+// $georgia: Georgia, serif !default;
+// $times: Times, serif !default;
+// $bodoni: "Bodoni MT", serif !default;
+// $calisto: "Calisto MT", serif !default;
+$garamond: Garamond, serif !default;
+
+$global-font-family: $garamond !default;
+$header-font-family: $garamond !default;
+$caption-font-family: $garamond !default;
+
+body {
+    font-family: Garamond !important;
+
+    .masthead__inner-wrap {
+        font-family: Garamond !important;
+        letter-spacing: 1px;
+    }
+    a {
+        font-family: Garamond !important;
+    }
+}
+
+.masthead {
+    border-bottom: none;
+
+    a.site-title {
+        display: contents;
+        &:hover {
+            color: $main-color !important;
+        }
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .site-title-container {
+        @include breakpoint($medium) {
+            width: 50%;
+            text-align: right;
+            font-size: 18px;
+        }
+
+    }
+}
+
+.greedy-nav__toggle {
+    &:hover {
+        .navicon, .navicon::before, .navicon::after {
+            background: $darker-main-color !important;
+        }
+    }
+    .navicon, .navicon::before, .navicon::after {
+        background: $main-color !important;
+    }
+}
+
+.greedy-nav .visible-links {
+    a {
+        &::before {
+            background: $main-color;
+        }
+    }
 }
 
 body {
-	h1, h2, h3 {
-		color: $darker-main-color;
-		text-decoration: none;
-	}
+    h1, h2, h3 {
+        color: $main-color;
+        text-decoration: none;
+        font-family: Garamond !important;
+        letter-spacing: 1px;
+    }
 
-	h1 {
-		font-weight: 400;
-		font-size: 28px;
-	}
+    h1 {
+        font-weight: 400;
+        font-size: 28px;
+    }
 
-	h2, h3 {
-		font-weight: 300;
-		font-size: 18px;
-	}
+    h2, h3 {
+        font-weight: 300;
+        font-size: 18px;
+    }
 
-	h3 {
-		font-weight: 500;
-		font-size: 14px;
-	}
+    h3 {
+        font-weight: 500;
+        font-size: 14px;
+    }
 }
 
 .masthead__inner-wrap {
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .layout--julie-about {
-	font-size: 12px;
+    font-size: 12px;
 
-	.archive {
-	    align-content: center;
-	}
+    .archive {
+        align-content: center;
+    }
 
-	.about-text {
-	    padding-right: 1em;
-	    text-align: justify;
+    .about-text {
+        padding-right: 1em;
+        text-align: justify;
 
-		@include breakpoint($medium) {
-			width: 50%;
-			float: left;
-		}
-	}
+        h2 {
+            margin-top: 0em;
+        }
 
-	.about-image {
-	    padding-left: 1em;
+        @include breakpoint($medium) {
+            width: 50%;
+            float: left;
+        }
+    }
 
-    	figure {
-    		margin-top: 0;
-    	}
+    .about-image {
 
-		@include breakpoint($medium) {
-			width: 50%;
-			float: right;
-		}
-	}
+        figure {
+            margin-top: 0;
+        }
+
+        @include breakpoint($medium) {
+            width: 50%;
+            float: right;
+            padding-left: 1em;
+        }
+    }
 }
 
-.title-image-wrapper {
-	overflow: hidden;
-	position: relative;
+#site-nav {
+    background: none;
+}
 
-	.text-button-wrapper {
-	    border-radius: $element-roundedness;
-	    text-align: center;
-	    top: 25%;
-    	transition: background $fade-in-length ease-out;
-    	margin-bottom: 3em;
-    	padding: 10px;
+header.masthead {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 
-	    @include breakpoint($medium) {
-	    	width: 45%;
-	        padding: 5em;
-	        position: absolute;
-	    	margin: 3em;
-	    }
+.section-background {
+    max-height: 100vh;
+    overflow: hidden;
 
-	    &:hover {
-	    	background-color: $main-color;
-	    	transition: background $fade-in-length ease-in;
+    img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover;
 
-	    	.btn {
-	    		background-color: $darker-main-color;
-	    	}
-	    }
+        @include breakpoint($medium) {
+            object-position: 0px -200px;
+        }
+    }
+}
 
-	    .btn {
-	    	transition: background $fade-in-length ease-out;
-			
-			&:hover {
-				background-color: white;
-				transition: background $fade-in-length ease-in;
-			}
-	    }
-    }	
+#main {
+    padding-top: 50px;
+}
 
-	img { 
-	    @include breakpoint($medium) {
-			float: right;
-			width: 50%;
-	        margin: 5em;
-	    }
-	}
+.layout--julie-home {
+    .greedy-nav {
+        a {
+            color: $main-color !important;
+        }
+    }
+    #main {
+        padding-top: 0px;
+
+        @include breakpoint($medium) {
+            padding-top: 50px;
+        }
+    }
+}
+
+.archive {
+    margin-top: 0px;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.intial-content {
+    background-color: white !important;
+}
+
+.text-button-wrapper {
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 3em;
+    padding: 10px;
+
+    @include breakpoint($medium) {
+        width: 33.33%;
+        margin: 3em;
+    }
+
+    .btn {
+        // background: none;
+        border-color: $main-color;
+        border-radius: 0;
+        padding: 1em 1.5em;
+        color: $main-color;
+        background: transparent;
+        transition: background $fade-in-length ease-out;
+        
+        &:hover {
+            color: $main-color;
+            background: rgba(0, 0, 0, 0.5);
+            transition: background $fade-in-length ease-in;
+        }
+    }
 }
 
 .layout--julie-home {
 
-	.archive {
-	  padding-right: 0px;
-	  float: none;
-	  width: 100% !important;
-	  font-size: 12px;
-	}
+    .archive {
+      padding-right: 0px;
+      float: none;
+      width: 100% !important;
+      font-size: 12px;
+    }
 
-	.page__hero {
-	    @include breakpoint($medium) {
-	      float: right;
-	      width: 50%;
-	    }
+    .page__hero {
+        @include breakpoint($medium) {
+          float: right;
+          width: 50%;
+        }
 
-	    @include breakpoint($large) {
-	      width: 50%
-	    }
+        @include breakpoint($large) {
+          width: 50%
+        }
 
-	}
+    }
 
-	.carousel-container {
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
+    .carousel-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
 
-	.carousel-inner {
+    .carousel-inner {
         padding: 3em;
         margin: 1em;
-	}
+    }
 
-	#news-carousel {
-		margin: 1em;
+    #news-carousel {
+        margin: 1em;
 
-		.carousel-indicators {
-			left: 0;
-			margin-left: 0;
-			width: 100%;    
-			bottom: 0;
-    		margin-bottom: 0;
-   			margin-top: 10px;
+        .carousel-indicators {
+            left: 0;
+            margin-left: 0;
+            width: 100%;    
+            bottom: 0;
+            margin-bottom: 0;
+            margin-top: 10px;
 
-			li {
-				border-color: $main-color;
-			}
+            li {
+                border-color: $main-color;
+            }
 
-			li.active {
-				background-color: $darker-main-color;
-			}
-		}
+            li.active {
+                background-color: $main-color;
+            }
+        }
 
-		.item {
-			width: 75%;
-			margin: 0 auto;
-		}
+        .item {
+            width: 75%;
+            margin: 0 auto;
+        }
 
-		img {
-			max-height: none !important;
-			margin: 0 auto;
-			float: left;
+        img {
+            max-height: none !important;
+            margin: 0 auto;
+            float: left;
 
-		    @include breakpoint($medium) {
-				width: 50%;
-		    }
-		}
+            @include breakpoint($medium) {
+                width: 50%;
+            }
+        }
 
-		.item-caption {
-			float: right;
-			padding: 1em 0em;
+        .item-caption {
+            float: right;
+            padding: 1em 0em;
 
-		    @include breakpoint($medium) {
-				width: 50%;
-				padding: 0em 1em;
-		    }
-		}
+            @include breakpoint($medium) {
+                width: 50%;
+                padding: 0em 1em;
+            }
+        }
 
-		.item-title {
-			margin-top: 0;
-		}
-		.item-date {
-			font-weight: 300;
-			font-style: italic;
-		}
+        .item-title {
+            margin-top: 0;
+        }
+        .item-date {
+            font-weight: 300;
+            font-style: italic;
+        }
 
-		.item-description {
-			padding-top: 1em;
-		}
-	}
+        .item-description {
+            padding-top: 1em;
+        }
+    }
 
-	.blurbs {    
-	  overflow: auto;
-	}
+    .blurbs {    
+      overflow: auto;
 
-	.blurb {    
-	    float: left;
-	    width: 100%;
-	    padding: 0;
+      h2 {
+        @include breakpoint($medium) {
+          margin: 0;
+          padding: 0 20px;
+        }
+      }
+    }
 
-	    @include breakpoint($medium) {
-	      width: 33%;
-	      padding: 20px;
-	    }
+    .blurb {    
+        float: left;
+        width: 100%;
+        padding: 0;
 
-	    @include breakpoint($large) {
-	      width: 33%
-	    }
-	}
+        @include breakpoint($medium) {
+          width: 33%;
+          padding: 20px;
+        }
+    }
+
+    .source {
+        color: $main-color;
+    }
+}
+
+.layout--julie-gallery {
+    .archive {
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+
+    .crop {
+        overflow: hidden;
+        margin:0.5%;
+        width: 49%;
+        height: 85px;
+
+        @include breakpoint($medium) {
+            width: 32.33%;
+            height: 160px;
+        }
+
+        @include breakpoint($large) {
+            width: 24%;
+            height: 117px;
+        }
+
+        img {
+            border-radius: 0px;
+        }
+
+    }
 }

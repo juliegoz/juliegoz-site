@@ -2,8 +2,9 @@
 layout: posts
 ---
 <div class="about-text">
+	<h2>{{ page.header_text }}</h2>
 	{{ content }}
 </div>
 <div class="about-image">
-    {% include figure image_path="/assets/images/108252167_219401549173989_2013790882833438291_n.jpg" %}
+    {% include figure image_path=page.about_image %}
 </div>
