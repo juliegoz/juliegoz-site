@@ -27,7 +27,7 @@ news_carousel:
   - title: "WOMXN ON FIRE FESTIVAL AT KEEGAN THEATRE"
     date: March 2020
     text: "Julieta was excited to make her Keegan Theatre debut at the WOMXN on Fire Festival this March. She performed in the two person play First Chair. \n The WOMXN on Fire Festival is the only one of its kind in the DMV. Over the course of a week, audiences have the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
-    image_url: "/assets/images/news_carousel/WOMXN-on-Fire-Logo-Square_edited_edited.jpg"
+    image_url: "assets/images/news_carousel/WOMXN-on-Fire-Logo-Square_edited_edited.jpg"
   - 
     title: "CRYSTAL CREEK MOTEL AT FLYING V"
     date: "October - November, 2019"
