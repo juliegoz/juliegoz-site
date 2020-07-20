@@ -2,7 +2,6 @@
 layout: julie-home
 fullpage_hero_image: "/assets/images/108252167_219401549173989_2013790882833438291_n.jpg"
 title_image_header:
-  <!-- image: /assets/images/108252167_219401549173989_2013790882833438291_n.jpg -->
   button:
     - label: "Resume"
       url: "/resume"
