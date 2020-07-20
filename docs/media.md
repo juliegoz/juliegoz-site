@@ -1,6 +1,6 @@
 ---
 layout: julie-gallery
-title: Media
+title: MEDIA
 permalink: /media/
 gallery:
   - url: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
