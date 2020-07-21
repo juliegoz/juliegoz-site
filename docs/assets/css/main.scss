@@ -284,6 +284,7 @@ html, body
     margin-bottom: 3em;
     padding: 10px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    text-align: left;
 
     @include breakpoint($medium) {
         width: 33.33%;
@@ -444,7 +445,6 @@ html, body
         }
 
         @include breakpoint($large) {
-            width: 24%;
             height: 117px;
         }
 
