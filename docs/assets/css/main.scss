@@ -439,6 +439,18 @@ html, body
 
 #footer {
     background-color: white;
+
+    .page__footer-copyright {
+        font-family: Garamond !important;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: inherit;
+        &:hover {
+            color: $main-color;
+        }
+    }
 }
 
 .page__footer {
