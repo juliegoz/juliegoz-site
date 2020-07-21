@@ -155,6 +155,12 @@ body {
     }
 }
 
+.layout--julie-resume {
+    .resume-iframe {
+        width: 100%;
+    }
+}
+
 #site-nav {
     background: none;
 }
@@ -187,10 +193,19 @@ header.masthead {
 
 .layout--julie-home {
     .masthead {
+        background: transparent;
+        transition: background $fade-in-length ease-out;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+
         .site-title-container {
             @include breakpoint($medium) {
                 text-align: right;
             }
+        }
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.5);
+            transition: background $fade-in-length ease-in;
         }
     }
     
@@ -199,12 +214,19 @@ header.masthead {
             color: $main-color !important;
         }
     }
+
     #main {
+        max-width: none;
         padding-top: 0px;
 
         @include breakpoint($medium) {
             padding-top: 50px;
         }
+    }
+
+    .initial-content {
+        max-width: 1280px;
+        margin: 0 auto;
     }
 }
 
@@ -228,6 +250,7 @@ html, body
     text-align: center;
     margin-bottom: 3em;
     padding: 10px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
 
     @include breakpoint($medium) {
         width: 33.33%;
@@ -261,6 +284,11 @@ html, body
         @include breakpoint($large) {
           width: 50%
         }
+    }
+
+    #main {
+        padding-top: 25px;
+        border-top: 5px solid $main-color;
     }
 
     .carousel-container {
@@ -414,6 +442,11 @@ html, body
 }
 
 .page__footer {
-        color: black !important;
-        margin-top: 0;
-    }
+    color: black !important;
+    margin-top: 0;
+}
+
+
+.fade-in-scroll {
+    opacity: 0;
+}

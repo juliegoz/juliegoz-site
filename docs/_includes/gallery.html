@@ -19,7 +19,7 @@
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     {% if img.url %}
-      <a href="{{ img.url | relative_url }}" class="crop"
+      <a href="{{ img.url | relative_url }}" class="crop fade-in-scroll"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img
                src="{{ img.image_path | relative_url }}"
@@ -28,7 +28,8 @@
     {% else %}
       <img
            src="{{ img.image_path | relative_url }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+            class="fade-in-scroll">
     {% endif %}
   {% endfor %}
   {% if include.caption %}

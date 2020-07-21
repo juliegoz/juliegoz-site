@@ -1,10 +1,11 @@
 ---
 layout: julie-hero
 ---
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/> -->
 
 {{ content }}
 
-<div class="blurbs">
+<div class="blurbs fade-in-scroll">
   <h2>{{ page.press.section_title }}</h2>
 
 	{% for b in page.press.blurbs %}
@@ -15,43 +16,5 @@ layout: julie-hero
 	{% endfor %}
 </div>
 
-<!-- <script>
-  var hero = document.getElementById("load-more");
-
-    .addEventListener("click", function() {
-      var x = screen.height; 
-
-      var div = document.createElement("div");
-      div.className = "element josh-js";
-      div.textContent = "I am newly created DOM!";
-      div.style =
-        "background: #ffe9c5; color: #000; border-bottom: 3px solid #fff;";
-      div.setAttribute("data-josh-anim-name", "fadeInDown");
-      this.insertAdjacentElement("beforebegin", div);
-    });
-</script> -->
-
-
-<!-- <div class="element josh-js" id="load-more" style="background: #b4f2e1;" data-josh-anim-name="lightSpeedInLeft" data-josh-duration="1500ms" data-josh-anim-delay="3.5s">
-	load more click on me
-</div> -->
-
-<script src="https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.min.js"></script>
-<script>
-  const josh = new Josh({
-    offset: 0.3,
-  });
-  document
-    .getElementById("load-more")
-    .addEventListener("click", function() {
-      var div = document.createElement("div");
-      div.className = "element josh-js";
-      div.textContent = "I am newly created DOM!";
-      div.style =
-        "background: #ffe9c5; color: #000; border-bottom: 3px solid #fff;";
-      div.setAttribute("data-josh-anim-name", "fadeInDown");
-      this.insertAdjacentElement("beforebegin", div);
-    });
-</script>
 
 {% include carousel.html %}
