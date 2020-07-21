@@ -156,8 +156,26 @@ body {
 }
 
 .layout--julie-resume {
+    .initial-content {
+        margin: 0 auto;
+        width: 75%;
+    }
     .resume-iframe {
+        display: block;
         width: 100%;
+        min-height: 400px;
+
+        @include breakpoint($medium) {
+            min-height: 700px;
+        }
+    }
+
+    h2 {
+        padding-top: 30px;
+        display: block;
+    }
+    a {
+        color: $darker-main-color;
     }
 }
 
@@ -184,6 +202,11 @@ header.masthead {
         @include breakpoint($medium) {
             object-position: 0px -200px;
         }
+    }
+}
+.layout--julie-contact {
+    iframe {
+        width: 100%;
     }
 }
 
