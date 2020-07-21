@@ -158,7 +158,17 @@ body {
 .layout--julie-resume {
     .initial-content {
         margin: 0 auto;
-        width: 75%;
+        width: 100%;
+
+        @include breakpoint($medium) {
+            width: 65%;
+            min-height: 600px;
+        }
+    }
+
+    .archive {
+        width: 100%;
+        padding-right:0;
     }
     .resume-iframe {
         display: block;
