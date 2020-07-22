@@ -4,26 +4,14 @@
   {% assign gallery = page.gallery %}
 {% endif %}
 
-{% if include.layout %}
-  {% assign gallery_layout = include.layout %}
-{% else %}
-  {% if gallery.size == 2 %}
-    {% assign gallery_layout = 'half' %}
-  {% elsif gallery.size >= 3 %}
-    {% assign gallery_layout = 'third' %}
-  {% else %}
-    {% assign gallery_layout = '' %}
-  {% endif %}
-{% endif %}
-
-<figure class="{{ gallery_layout }} {{ include.class }}">
+<figure class="{{ include.class }} overall-figure">
   {% for img in gallery %}
     {% if img.url %}
       <a href="{{ img.url | relative_url }}" class="crop fade-in-scroll"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img
                src="{{ img.image_path | relative_url }}"
-               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+               alt="{% if img.alt %}{{ img.alt }}{% endif %}" class="fade-in-scroll">
       </a>
     {% else %}
       <img

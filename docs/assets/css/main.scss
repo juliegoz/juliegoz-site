@@ -183,7 +183,7 @@ body {
         padding-top: 30px;
         display: block;
     }
-    a {
+    .dl-link {
         color: $darker-main-color;
     }
 }
@@ -428,29 +428,17 @@ html, body
         margin-top: 1em;
     }
 
-    figure {
-        display: flex;
+    .overall-figure {
+        columns: 2;
     }
 
     .crop {
-        overflow: hidden;
-        margin:0.5%;
-        width: 49%;
-        height: 85px;
-
-        @include breakpoint($medium) {
-            width: 32.33%;
-            height: 160px;
-        }
-
-        @include breakpoint($large) {
-            height: 117px;
-        }
+        margin: 0.25%;
 
         img {
             border-radius: 0px;
+            margin: 0;
         }
-
     }
 }
 
