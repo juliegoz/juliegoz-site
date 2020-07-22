@@ -201,17 +201,13 @@ header.masthead {
 }
 
 .section-background {
-    // min-height: 100vh;
+    height: 100vh;
     // overflow: hidden;
 
     img {
         width: 100%; 
         height: auto; 
         object-fit: cover;
-
-        @include breakpoint($medium) {
-            object-position: 0px -200px;
-        }
     }
 }
 .layout--julie-contact {
