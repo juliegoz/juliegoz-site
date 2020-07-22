@@ -201,8 +201,8 @@ header.masthead {
 }
 
 .section-background {
-    max-height: 100vh;
-    overflow: hidden;
+    // min-height: 100vh;
+    // overflow: hidden;
 
     img {
         width: 100%; 
@@ -277,7 +277,7 @@ html, body
 }
 
 .text-button-wrapper {
-    top: 25%;
+    top: 50%;
     width: 100%;
     position: absolute;
     text-align: center;
