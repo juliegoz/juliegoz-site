@@ -11,11 +11,11 @@ gallery:
     image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     alt: Production image18
     title: Destination DC   
-    - url: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
+  - url: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
     image_path: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
     alt: Production image34
     title: Destination DC
-    - url: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
+  - url: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
     image_path: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
     alt: Production image25
     title: Destination DC
