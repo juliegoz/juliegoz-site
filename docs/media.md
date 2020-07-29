@@ -7,6 +7,10 @@ gallery:
     image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
     alt: Production image1
     title: University of Maryland Global Campus 
+  - url: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
+    image_path: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
+    alt: Production image14
+    title: WTOP News
   - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     alt: Production image18
@@ -19,6 +23,14 @@ gallery:
     image_path: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
     alt: Production image25
     title: Destination DC
+  - url: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
+    image_path: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
+    alt: Production image35
+    title: Crystal Creek Motel
+  - url: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
+    image_path: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
+    alt: Production image19
+    title: Crystal Creek Motel
   - url: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     image_path: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     alt: Production image2
@@ -42,7 +54,7 @@ gallery:
   - url: assets/images/production_photos/107694098_793480991481358_2450753956747908839_n.jpg
     image_path: assets/images/production_photos/107694098_793480991481358_2450753956747908839_n.jpg
     alt: Production image7
-    title: Production image7
+    title: Crystal Creek Motel
   - url: assets/images/production_photos/107821568_624637128154314_7684921348118173393_n.jpg
     image_path: assets/images/production_photos/107821568_624637128154314_7684921348118173393_n.jpg
     alt: Production image8
@@ -67,10 +79,6 @@ gallery:
     image_path: assets/images/production_photos/107374373_278340216590329_8541518901406828049_n.jpg
     alt: Production image13
     title: Production image13
-  - url: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
-    image_path: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
-    alt: Production image14
-    title: Production image14
   - url: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     image_path: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     alt: Production image15
@@ -83,10 +91,6 @@ gallery:
     image_path: assets/images/production_photos/107735348_960992204364152_109547820313440818_n.jpg
     alt: Production image17
     title: Production image17
-  - url: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
-    image_path: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
-    alt: Production image19
-    title: Production image19
   - url: assets/images/production_photos/107721462_696797347718523_8347255794476082282_n.jpg
     image_path: assets/images/production_photos/107721462_696797347718523_8347255794476082282_n.jpg
     alt: Production image20
@@ -98,7 +102,7 @@ gallery:
   - url: assets/images/production_photos/107752157_562361071309913_5857737837426020131_n.jpg
     image_path: assets/images/production_photos/107752157_562361071309913_5857737837426020131_n.jpg
     alt: Production image22
-    title: Production image22
+    title: Crystal Creek Motel
   - url: assets/images/production_photos/107709889_892551307893309_1157890690033430061_n.jpg
     image_path: assets/images/production_photos/107709889_892551307893309_1157890690033430061_n.jpg
     alt: Production image23
@@ -139,8 +143,5 @@ gallery:
     image_path: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
     alt: Production image33
     title: Production image33
-  - url: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
-    image_path: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
-    alt: Production image35
-    title: Production image35
+
 ---
