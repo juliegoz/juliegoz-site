@@ -7,7 +7,7 @@ gallery:
     image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
     alt: Production image1
     title: University of Maryland Global Campus 
-    - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
+  - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     alt: Production image18
     title: Destination DC   
