@@ -6,7 +6,19 @@ gallery:
   - url: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
     image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
     alt: Production image1
-    title: Production image1
+    title: University of Maryland Global Campus 
+    - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
+    image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
+    alt: Production image18
+    title: Destination DC   
+    - url: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
+    image_path: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
+    alt: Production image34
+    title: Destination DC
+    - url: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
+    image_path: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
+    alt: Production image25
+    title: Destination DC
   - url: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     image_path: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     alt: Production image2
@@ -71,10 +83,6 @@ gallery:
     image_path: assets/images/production_photos/107735348_960992204364152_109547820313440818_n.jpg
     alt: Production image17
     title: Production image17
-  - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
-    image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
-    alt: Production image18
-    title: Production image18
   - url: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     image_path: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     alt: Production image19
@@ -99,10 +107,7 @@ gallery:
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     alt: Production image24
     title: Production image24
-  - url: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
-    image_path: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
-    alt: Production image25
-    title: Production image25
+
   - url: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     image_path: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     alt: Production image26
@@ -135,10 +140,7 @@ gallery:
     image_path: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
     alt: Production image33
     title: Production image33
-  - url: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
-    image_path: assets/images/production_photos/108568058_633150657553807_2015986112595440899_n.jpg
-    alt: Production image34
-    title: Production image34
+
   - url: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
     image_path: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
     alt: Production image35
