@@ -63,6 +63,10 @@ gallery:
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     alt: Production image24
     title: Shakespeare is a White Supremacist
+  - url: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
+    image_path: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
+    alt: Production image21
+    title: Production image21
   - url: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     image_path: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     alt: Production image26
@@ -115,10 +119,6 @@ gallery:
     image_path: assets/images/production_photos/107721462_696797347718523_8347255794476082282_n.jpg
     alt: Production image20
     title: The Schooling of Bento Bonchev
-  - url: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
-    image_path: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
-    alt: Production image21
-    title: Production image21
   - url: assets/images/production_photos/107709889_892551307893309_1157890690033430061_n.jpg
     image_path: assets/images/production_photos/107709889_892551307893309_1157890690033430061_n.jpg
     alt: Production image23
