@@ -63,10 +63,6 @@ gallery:
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     alt: Production image24
     title: Shakespeare is a White Supremacist
-  - url: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
-    image_path: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
-    alt: Production image21
-    title: Production image21
   - url: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     image_path: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     alt: Production image26
@@ -110,7 +106,7 @@ gallery:
   - url: assets/images/production_photos/107639871_2963624543686998_6691468830270492915_n.jpg
     image_path: assets/images/production_photos/107639871_2963624543686998_6691468830270492915_n.jpg
     alt: Production image10
-    title: Production image10
+    title: The Schooling of Bento Bonchev
   - url: assets/images/production_photos/107374373_278340216590329_8541518901406828049_n.jpg
     image_path: assets/images/production_photos/107374373_278340216590329_8541518901406828049_n.jpg
     alt: Production image13
@@ -142,6 +138,10 @@ gallery:
   - url: assets/images/production_photos/107636931_597946681143253_2926665827670838053_n.jpg
     image_path: assets/images/production_photos/107636931_597946681143253_2926665827670838053_n.jpg
     alt: Production image9
+    title: The Servant of Two Masters
+  - url: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
+    image_path: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
+    alt: Production image21
     title: The Servant of Two Masters
 
 
