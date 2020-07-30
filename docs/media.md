@@ -2,15 +2,7 @@
 layout: julie-gallery
 title: MEDIA
 permalink: /media/
-gallery:
-  - url: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
-    image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
-    alt: Production image1
-    title: University of Maryland Global Campus 
-  - url: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
-    image_path: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
-    alt: Production image14
-    title: WTOP News
+gallery: 
   - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     alt: Production image18
@@ -23,6 +15,14 @@ gallery:
     image_path: assets/images/production_photos/107698532_767441440663115_1824434831846998659_n.jpg
     alt: Production image25
     title: Destination DC
+  - url: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
+    image_path: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
+    alt: Production image14
+    title: WTOP News
+  - url: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
+    image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
+    alt: Production image1
+    title: University of Maryland Global Campus
   - url: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
     image_path: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
     alt: Production image35
