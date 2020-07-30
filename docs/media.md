@@ -54,11 +54,11 @@ gallery:
   - url: assets/images/production_photos/107701397_208750263710804_3269333890622280661_n.jpg
     image_path: assets/images/production_photos/107701397_208750263710804_3269333890622280661_n.jpg
     alt: Production image6
-    title: Infinite Future: Bernstein's Lasting Impact
+    title: Infinite Future Bernstein's Lasting Impact
   - url: assets/images/production_photos/107842416_3289062231185216_5642710933953238033_n.jpg
     image_path: assets/images/production_photos/107842416_3289062231185216_5642710933953238033_n.jpg
     alt: Production image16
-    title: Infinite Future: Bernstein's Lasting Impact
+    title: Infinite Future Bernstein's Lasting Impact
   - url: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     alt: Production image24
@@ -66,35 +66,35 @@ gallery:
   - url: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     image_path: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     alt: Production image26
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107365437_588215231835795_5673705112867641152_n.jpg
     image_path: assets/images/production_photos/107365437_588215231835795_5673705112867641152_n.jpg
     alt: Production image27
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107189155_280614773160436_5450359940824447642_n.jpg
     image_path: assets/images/production_photos/107189155_280614773160436_5450359940824447642_n.jpg
     alt: Production image28
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107989679_558528188160638_7080439335176435252_n.jpg
     image_path: assets/images/production_photos/107989679_558528188160638_7080439335176435252_n.jpg
     alt: Production image4
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107821568_624637128154314_7684921348118173393_n.jpg
     image_path: assets/images/production_photos/107821568_624637128154314_7684921348118173393_n.jpg
     alt: Production image8
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107735348_960992204364152_109547820313440818_n.jpg
     image_path: assets/images/production_photos/107735348_960992204364152_109547820313440818_n.jpg
     alt: Production image17
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107951556_3189555267754304_509208695494486592_n.jpg
     image_path: assets/images/production_photos/107951556_3189555267754304_509208695494486592_n.jpg
     alt: Production image30
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107625495_935842023505826_3027759912815709546_n.jpg
     image_path: assets/images/production_photos/107625495_935842023505826_3027759912815709546_n.jpg
     alt: Production image32
-    title: Overtures - Signature Theatre
+    title: Overtures Signature Theatre
   - url: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     image_path: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     alt: Production image2
@@ -143,6 +143,5 @@ gallery:
     image_path: assets/images/production_photos/107636931_597946681143253_2926665827670838053_n.jpg
     alt: Production image9
     title: The Servant of Two Masters
-
 
 ---
