@@ -126,11 +126,11 @@ gallery:
   - url: assets/images/production_photos/107384311_2331959453778095_492156535924969344_n.jpg
     image_path: assets/images/production_photos/107384311_2331959453778095_492156535924969344_n.jpg
     alt: Production image31
-    title: Batboy: The Musical
+    title: Batboy The Musical
   - url: assets/images/production_photos/107666965_619610268653954_714150589041391339_n.jpg
     image_path: assets/images/production_photos/107666965_619610268653954_714150589041391339_n.jpg
     alt: Production image3
-    title: Batboy: The Musical
+    title: Batboy The Musical
   - url: assets/images/production_photos/107632917_925640321269258_3887728708220654227_n.jpg
     image_path: assets/images/production_photos/107632917_925640321269258_3887728708220654227_n.jpg
     alt: Production image11
@@ -143,5 +143,6 @@ gallery:
     image_path: assets/images/production_photos/107636931_597946681143253_2926665827670838053_n.jpg
     alt: Production image9
     title: The Servant of Two Masters
+
 
 ---
