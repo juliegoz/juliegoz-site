@@ -35,6 +35,10 @@ gallery:
     image_path: assets/images/loveandinfo.jpg
     alt: Production image67
     title: Love and Information
+  - url: assets/images/infinitefuture.jpg
+    image_path: assets/images/infinitefuture.jpg
+    alt: Production image99
+    title: Infinite Future
   - url: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     image_path: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     alt: Production image15
