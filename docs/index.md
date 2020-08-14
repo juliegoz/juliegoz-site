@@ -49,6 +49,6 @@ news_carousel:
   - 
     title: "INFINITE FUTURE: BERNSTEIN'S LASTING IMPACT AT MONUMENTAL THEATRE COMPANY"
     date: "February 2018"
-    text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Leonard Bernstein's 100th birthday. \n'Directed by Bridget Grace Sheaff, the performance includes music from West Side Story and On the Town."
+    text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Leonard Bernstein's 100th birthday."
     image_url: "assets/images/news_carousel/IMG_8639-2.jpg"
 ---
