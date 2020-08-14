@@ -173,23 +173,11 @@ html
         }
     }
 
-    .section-background {
-        max-height: 100vh;
-        overflow: hidden;
-
-        img {
-            width: 100%; 
-            height: auto; 
-            object-fit: cover;
-
-        }
-    }
-
     // HOMEPAGE MASTHEAD STYLING
     .masthead {
         background: transparent;
         text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.3);
-        transition: background $fade-in-length ease-out;
+        // transition: background $fade-in-length ease-out;
 
         .site-title-container {
             @include breakpoint($medium) {
@@ -198,8 +186,8 @@ html
         }
 
         &:hover {
-            background: rgba(0, 0, 0, 0.5);
-            transition: background $fade-in-length ease-in;
+            // background: rgba(0, 0, 0, 0.5);
+            // transition: background $fade-in-length ease-in;
         }
         
         .greedy-nav {
@@ -217,13 +205,17 @@ html
         padding: 0;
         width: 100%;
 
-        .carousel-inner {
-            margin: 1em;
-            padding: 3em;
-        }
-
         #news-carousel {
             margin: 1em;
+
+            .carousel-control {
+                background-image: none;
+                filter: none;
+            }
+
+            .carousel-inner {
+                height: 300px;
+            }
 
             .carousel-indicators {
                 bottom: 0;
@@ -231,6 +223,7 @@ html
                 margin-bottom: 0;
                 margin-left: 0;
                 margin-top: 10px;
+                position: relative;
                 width: 100%;    
 
                 li {
@@ -311,19 +304,34 @@ html
 }
 
 
+.section-background {
+    max-height: 100vh;
+    overflow: hidden;
+
+    img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover;
+
+    }
+}
+
+
 // ABOUT STYLING
 .layout--julie-about {
     #main {
-        @include breakpoint($medium) {
-            width: 75%;
-        }
-        @include breakpoint($large) {
-            width: 55%;
-        }
+        border-top: 5px solid $main-color;
+        margin: 0;
+        max-width: none;
+    }
+    .section-background {
+        height: 25vh;
     }
 
     .about-text {
         color: $darker-main-color;
+        float: none;
+        margin: 0 auto;
         padding-right: 1em;
         text-align: justify;
 
@@ -340,15 +348,6 @@ html
         @include breakpoint($medium) {
             font-size: 16px;
             width: 50%;
-            float: left;
-        }
-    }
-
-    .about-image {
-        @include breakpoint($medium) {
-            width: 50%;
-            float: right;
-            padding-left: 1em;
         }
     }
 }

@@ -1,8 +1,8 @@
 ---
 layout: julie-about
 permalink: /about/
+fullpage_hero_image: "/assets/images/115803690_766205740783713_6390479288943280595_n.jpg"
 header_text: Julieta is an actor, singer, and musician from the Washington D.C. area. 
-about_image: "/assets/images/115803690_766205740783713_6390479288943280595_n.jpg"
 ---
 She has worked in many different programs and colleges, including Montgomery College Summer Dinner Theatre, Overtures: Musical Theatre Institute at Signature Theatre, and at The University of Maryland, where she graduated from in December 2019 with a dual degree in Communication Studies and Theatre, as well as a Professional Writing Minor.
 

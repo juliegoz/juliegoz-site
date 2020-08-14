@@ -20,7 +20,6 @@ press:
       title: "Crystal Creek Motel"
       quote: "One of the most unifying and delightful aspects of the show is the cleaning staff, played by Gozalo and Denman, who not only reset the stage between each scene, but also get their own, nearly wordless yet entirely satisfying, story arc."
       source: "DC Theatre Scene"
-
 news_carousel:
   - title: "WOMXN ON FIRE FESTIVAL AT KEEGAN THEATRE"
     date: March 2020
