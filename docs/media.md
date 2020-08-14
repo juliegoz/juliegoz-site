@@ -23,10 +23,6 @@ gallery:
     image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
     alt: Production image1
     title: University of Maryland Global Campus
-  - url: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
-    image_path: assets/images/production_photos/107729885_303465950787665_7076819260423483560_n.jpg
-    alt: Production image35
-    title: Crystal Creek Motel
   - url: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     image_path: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     alt: Production image19
@@ -78,14 +74,6 @@ gallery:
   - url: assets/images/production_photos/107989679_558528188160638_7080439335176435252_n.jpg
     image_path: assets/images/production_photos/107989679_558528188160638_7080439335176435252_n.jpg
     alt: Production image4
-    title: Overtures Signature Theatre
-  - url: assets/images/production_photos/107821568_624637128154314_7684921348118173393_n.jpg
-    image_path: assets/images/production_photos/107821568_624637128154314_7684921348118173393_n.jpg
-    alt: Production image8
-    title: Overtures Signature Theatre
-  - url: assets/images/production_photos/107735348_960992204364152_109547820313440818_n.jpg
-    image_path: assets/images/production_photos/107735348_960992204364152_109547820313440818_n.jpg
-    alt: Production image17
     title: Overtures Signature Theatre
   - url: assets/images/production_photos/107951556_3189555267754304_509208695494486592_n.jpg
     image_path: assets/images/production_photos/107951556_3189555267754304_509208695494486592_n.jpg
