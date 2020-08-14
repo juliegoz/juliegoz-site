@@ -1,6 +1,6 @@
 ---
 layout: julie-home
-fullpage_hero_image: "assets/images/IMG_4496.JPG"
+fullpage_hero_image: "/assets/images/IMG_4496.JPG"
 title_image_header:
   button:
     - label: "Resume"
