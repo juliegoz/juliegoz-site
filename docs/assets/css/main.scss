@@ -274,17 +274,16 @@ html
         }
     }
 
+    h2 {
+        @include breakpoint($medium) {
+            margin: 0;
+            padding: 0 20px;
+        }
+    }
 
     // PRESS SECTION STYLING
     .blurbs {
       overflow: auto;
-
-      h2 {
-        @include breakpoint($medium) {
-          margin: 0;
-          padding: 0 20px;
-        }
-      }
     }
 
     .blurb {    
@@ -322,7 +321,7 @@ html
     .masthead {
         position: relative;
     }
-    
+
     #main {
         border-top: 5px solid $main-color;
         margin: 0;
