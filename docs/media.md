@@ -27,14 +27,6 @@ gallery:
     image_path: assets/images/clove.jpg
     alt: Production image60
     title: Clove
-  - url: assets/images/clove2.jpg
-    image_path: assets/images/clove2.jpg
-    alt: Production image61
-    title: Clove
-  - url: assets/images/infinitefuture.jpg
-    image_path: assets/images/infinitefuture.jpg
-    alt: Production image62
-    title: Infinite Future: Bernstein's Lasting Impact
   - url: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     image_path: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     alt: Production image19
@@ -62,6 +54,10 @@ gallery:
   - url: assets/images/production_photos/107701397_208750263710804_3269333890622280661_n.jpg
     image_path: assets/images/production_photos/107701397_208750263710804_3269333890622280661_n.jpg
     alt: Production image6
+    title: Infinite Future Bernstein's Lasting Impact
+  - url: assets/images/production_photos/107842416_3289062231185216_5642710933953238033_n.jpg
+    image_path: assets/images/production_photos/107842416_3289062231185216_5642710933953238033_n.jpg
+    alt: Production image16
     title: Infinite Future Bernstein's Lasting Impact
   - url: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
@@ -91,10 +87,6 @@ gallery:
     image_path: assets/images/production_photos/107625495_935842023505826_3027759912815709546_n.jpg
     alt: Production image32
     title: Overtures Signature Theatre
-  - url: assets/images/loveandinfo.jpg
-    image_path: assets/images/loveandinfo.jpg
-    alt: Production image65
-    title: Love and Information
   - url: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     image_path: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     alt: Production image2
