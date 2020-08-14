@@ -27,6 +27,14 @@ gallery:
     image_path: assets/images/clove.jpg
     alt: Production image60
     title: Clove
+  - url: assets/images/clove2.jpg
+    image_path: assets/images/clove2.jpg
+    alt: Production image66
+    title: Clove
+  - url: assets/images/loveandinfo.jpg
+    image_path: assets/images/loveandinfo.jpg
+    alt: Production image67
+    title: Love and Information
   - url: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     image_path: assets/images/production_photos/107666962_311891490180346_5467798845419173639_n.jpg
     alt: Production image19
