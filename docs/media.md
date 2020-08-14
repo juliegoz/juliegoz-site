@@ -79,10 +79,6 @@ gallery:
     image_path: assets/images/production_photos/107632913_989741068135778_4743525125966874795_n.jpg
     alt: Production image2
     title: The Schooling of Bento Bonchev
-  - url: assets/images/production_photos/107673652_581205565877058_5966613372230384222_n.jpg
-    image_path: assets/images/production_photos/107673652_581205565877058_5966613372230384222_n.jpg
-    alt: Production image5
-    title: The Schooling of Bento Bonchev
   - url: assets/images/production_photos/107639871_2963624543686998_6691468830270492915_n.jpg
     image_path: assets/images/production_photos/107639871_2963624543686998_6691468830270492915_n.jpg
     alt: Production image10
