@@ -1,6 +1,6 @@
 ---
 layout: julie-home
-fullpage_hero_image: "/assets/images/108252167_219401549173989_2013790882833438291_n.jpg"
+fullpage_hero_image: "docs/assets/images/IMG_4496.JPG"
 title_image_header:
   button:
     - label: "Resume"
@@ -29,7 +29,7 @@ news_carousel:
   - 
     title: "CRYSTAL CREEK MOTEL AT FLYING V"
     date: "October - November, 2019"
-    text: "Julieta was thrilled to make her Flying V debut in the world premiere of Crystal Creek Motel as Delfin and Ensemble. \n This original and innovative production features six auteur directors – led by Associate Artistic Director Lee Liebeskind – a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year. \n The show runs from October 10th - November 2nd"
+    text: "Julieta was thrilled to make her Flying V debut in the world premiere of Crystal Creek Motel as Delfin and Ensemble. \n This original and innovative production features six auteur directors – led by Associate Artistic Director Lee Liebeskind – a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
     image_url: "assets/images/news_carousel/IMG_0286_JPG.jpg"
   - 
     title: "CAT IN THE HAT AT ADVENTURE THEATRE"
@@ -49,6 +49,6 @@ news_carousel:
   - 
     title: "INFINITE FUTURE: BERNSTEIN'S LASTING IMPACT AT MONUMENTAL THEATRE COMPANY"
     date: "February 2018"
-    text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Leonard Bernstein's 100th birthday. \n'Directed by Bridget Grace Sheaff, the performance includes music from West Side Story and On the Town. The show’s creators take inspiration from Bernstein’s idea that: “A liberal is a man or a woman or a child who looks forward to a better day, a more tranquil night, and a bright, infinite future.” This performance looks at the ways in which today’s musical theatre follows in Bernstein’s footsteps by tackling thorny issues from everyday life with the hope of a better future.'"
+    text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Leonard Bernstein's 100th birthday. \n'Directed by Bridget Grace Sheaff, the performance includes music from West Side Story and On the Town."
     image_url: "assets/images/news_carousel/IMG_8639-2.jpg"
 ---
