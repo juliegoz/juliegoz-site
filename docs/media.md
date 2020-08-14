@@ -33,8 +33,12 @@ gallery:
     title: Clove
   - url: assets/images/loveandinfo.jpg
     image_path: assets/images/loveandinfo.jpg
-    alt: Production image67
+    alt: Production image69
     title: Love and Information
+  - url: assets/images/infinitefuture.jpg
+    image_path: assets/images/infinitefuture.jpg
+    alt: Production image67
+    title: Infinite Future: Bernstein's Lasting Impact
   - url: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     image_path: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     alt: Production image15
@@ -43,17 +47,9 @@ gallery:
     image_path: assets/images/production_photos/107694098_793480991481358_2450753956747908839_n.jpg
     alt: Production image7
     title: Crystal Creek Motel
-  - url: assets/images/production_photos/107752157_562361071309913_5857737837426020131_n.jpg
-    image_path: assets/images/production_photos/107752157_562361071309913_5857737837426020131_n.jpg
-    alt: Production image22
-    title: Crystal Creek Motel
   - url: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
     image_path: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
     alt: Production image33
-    title: The Head That Wears the Crown
-  - url: assets/images/production_photos/107865261_2933706570091360_8779970501477119916_n.jpg
-    image_path: assets/images/production_photos/107865261_2933706570091360_8779970501477119916_n.jpg
-    alt: Production image29
     title: The Head That Wears the Crown
   - url: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
