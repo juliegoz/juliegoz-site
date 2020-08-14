@@ -33,11 +33,11 @@ gallery:
     title: Clove
   - url: assets/images/loveandinfo.jpg
     image_path: assets/images/loveandinfo.jpg
-    alt: Production image69
+    alt: Production image67
     title: Love and Information
   - url: assets/images/infinitefuture.jpg
     image_path: assets/images/infinitefuture.jpg
-    alt: Production image67
+    alt: Production image70
     title: Infinite Future: Bernstein's Lasting Impact
   - url: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
     image_path: assets/images/production_photos/107748154_275084953909050_236783680216104498_n.jpg
