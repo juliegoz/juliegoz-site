@@ -186,7 +186,7 @@ html
     // HOMEPAGE MASTHEAD STYLING
     .masthead {
         background: transparent;
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+        text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.3);
         transition: background $fade-in-length ease-out;
 
         .site-title-container {
