@@ -1,6 +1,7 @@
 ---
 layout: julie-about
 permalink: /about/
+title: About
 fullpage_hero_image: "/assets/images/alice.JPG"
 header_text: Julieta is an actor, singer, and musician from the Washington D.C. area. 
 ---

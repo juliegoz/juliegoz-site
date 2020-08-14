@@ -319,6 +319,10 @@ html
 
 // ABOUT STYLING
 .layout--julie-about {
+    .masthead {
+        position: relative;
+    }
+    
     #main {
         border-top: 5px solid $main-color;
         margin: 0;
@@ -326,8 +330,24 @@ html
     }
     .section-background {
         height: 35vh;
+        position: relative;
     }
 
+    .text-button-wrapper {   
+        position: absolute;
+        top: 50%;
+        padding-left: 1em;
+
+        @include breakpoint($medium) {
+            width: 100%;
+            padding-left: 0;
+
+            h1 {
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+    }
     .about-text {
         color: $darker-main-color;
         float: none;

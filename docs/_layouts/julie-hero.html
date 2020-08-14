@@ -14,7 +14,7 @@
     <main>
       <div class="section-background fade-in-scroll">
         <img src="{{ site.baseurl }}{{ page.fullpage_hero_image }}">
-        {% if page.title_image_header %}
+        {% if page.title_image_header or page.title %}
           {% include title_image.html %}
         {% endif %}
       </div>
