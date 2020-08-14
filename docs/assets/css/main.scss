@@ -1,58 +1,79 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 
-// WEBSITE VARIABLES
-$main-color: #e7aca9;
+// STYLING VARIABLES
 $darker-main-color: #c98e8b;
-$fade-in-length: 0.5s;
 $element-roundedness: 5px;
+$fade-in-length: 0.5s;
+$main-color: #e7aca9;
+
 
 // TYPOGRAPHY OVERRIDES
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
-
-/* sans serif typefaces */
-$sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
-
-/* serif typefaces */
-// $georgia: Georgia, serif !default;
-// $times: Times, serif !default;
-// $bodoni: "Bodoni MT", serif !default;
-// $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
-
 $global-font-family: $garamond !default;
 $header-font-family: $garamond !default;
 $caption-font-family: $garamond !default;
 
-body {
-    font-family: Garamond !important;
 
-    .masthead__inner-wrap {
-        font-family: Garamond !important;
+// SITE-WIDE STYLING
+body {
+    font-family: $garamond !important;
+
+    h1, h2, h3 {
+        color: $main-color;
         letter-spacing: 1px;
     }
-    a {
-        font-family: Garamond !important;
+
+    h1 {
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    h2 {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    h3 {
+        font-weight: 500;
+        font-size: 14px;
     }
 }
 
+html
+{
+    height: 100%;
+}
+
+.intial-content {
+    background-color: white !important;
+}
+
+// MASTHEAD/NAVIIGATION BAR STYLING
 .masthead {
     border-bottom: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .masthead__inner-wrap {
+        font-family: $garamond !important;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
 
     a.site-title {
         display: contents;
+
         &:hover {
             color: $main-color !important;
         }
@@ -64,11 +85,18 @@ body {
     
     .site-title-container {
         @include breakpoint($medium) {
-            width: 50%;
             font-size: 18px;
+            width: 50%;
         }
-
     }
+    
+    #site-nav {
+        background: none;
+    }
+}
+
+#main {
+    padding-top: 50px;
 }
 
 .greedy-nav__toggle {
@@ -90,144 +118,74 @@ body {
     }
 }
 
-body {
-    h1, h2, h3 {
-        color: $main-color;
-        text-decoration: none;
-        font-family: Garamond !important;
-        letter-spacing: 1px;
-    }
 
-    h1 {
-        font-weight: 400;
-        font-size: 28px;
-    }
+// HOMEPAGE STYLING
+.layout--julie-home {
 
-    h2, h3 {
-        font-weight: 300;
-        font-size: 18px;
-    }
-
-    h3 {
-        font-weight: 500;
-        font-size: 14px;
-    }
-}
-
-.masthead__inner-wrap {
-    font-size: 12px;
-}
-
-.layout--julie-about {
-    font-size: 14px;
-
-    .archive {
-        align-content: center;
-    }
-
-    .about-text {
-        color: $darker-main-color;
-        padding-right: 1em;
-        text-align: justify;
-
-        h2 {
-            color: $darker-main-color;
-            margin-top: 0em;
-        }
+    // HOMEPAGE OVERALL STYLING
+    #main {
+        border-top: 5px solid $main-color;
+        max-width: none;
+        padding-top: 25px;
 
         @include breakpoint($medium) {
-            font-size: 16px;
-            width: 50%;
-            float: left;
+            padding-top: 50px;
         }
     }
 
-    .about-image {
-        figure {
-            margin-top: 0;
-        }
-
-        @include breakpoint($medium) {
-            width: 50%;
-            float: right;
-            padding-left: 1em;
-        }
-    }
-}
-
-.layout--julie-resume {
     .initial-content {
         margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    .text-button-wrapper {
+        margin-bottom: 3em;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+        top: 50%;
         width: 100%;
 
         @include breakpoint($medium) {
-            width: 65%;
+            margin: 3em;
+            width: 33.33%;
+        }
+
+        .btn {
+            background: transparent;
+            border-color: $main-color;
+            border-radius: 0;
+            color: $main-color;
+            font-family: $garamond !important;
+            padding: 1em 1.5em;
+            transition: background $fade-in-length ease-out;
+            
+            &:hover {
+                background: rgba(0, 0, 0, 0.5);
+                color: $main-color;
+                transition: background $fade-in-length ease-in;
+            }
         }
     }
 
-    .archive {
-        width: 100%;
-        padding-right:0;
-    }
-    .resume-iframe {
-        display: block;
-        width: 100%;
-        min-height: 400px;
+    .section-background {
+        max-height: 100vh;
+        overflow: hidden;
 
-        @include breakpoint($medium) {
-            min-height: 700px;
+        img {
+            width: 100%; 
+            height: auto; 
+            object-fit: cover;
+
         }
     }
 
-    h2 {
-        padding-top: 30px;
-        display: block;
-    }
-    .dl-link {
-        color: $darker-main-color;
-    }
-}
-
-#site-nav {
-    background: none;
-}
-
-header.masthead {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
-.section-background {
-    max-height: 100vh;
-    overflow: hidden;
-
-    img {
-        width: 100%; 
-        height: auto; 
-        object-fit: cover;
-
-        @include breakpoint($medium) {
-            // object-position: 0px -200px;
-        }
-    }
-}
-.layout--julie-contact {
-    iframe {
-        width: 100%;
-    }
-}
-
-#main {
-    padding-top: 50px;
-}
-
-.layout--julie-home {
+    // HOMEPAGE MASTHEAD STYLING
     .masthead {
         background: transparent;
-        transition: background $fade-in-length ease-out;
         text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+        transition: background $fade-in-length ease-out;
 
         .site-title-container {
             @include breakpoint($medium) {
@@ -239,161 +197,89 @@ header.masthead {
             background: rgba(0, 0, 0, 0.5);
             transition: background $fade-in-length ease-in;
         }
-    }
-    
-    .greedy-nav {
-        a {
-            color: $main-color !important;
-        }
-    }
-
-    #main {
-        max-width: none;
-        padding-top: 0px;
-
-        @include breakpoint($medium) {
-            padding-top: 50px;
-        }
-    }
-
-    .initial-content {
-        max-width: 1280px;
-        margin: 0 auto;
-    }
-}
-
-.archive {
-    margin-top: 0px;
-}
-
-html, body
-{
-    height: 100%;
-}
-
-.intial-content {
-    background-color: white !important;
-}
-
-.text-button-wrapper {
-    top: 50%;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    margin-bottom: 3em;
-    padding: 10px;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
-    text-align: left;
-
-    @include breakpoint($medium) {
-        width: 33.33%;
-        margin: 3em;
-    }
-
-    .btn {
-        // background: none;
-        border-color: $main-color;
-        border-radius: 0;
-        padding: 1em 1.5em;
-        color: $main-color;
-        background: transparent;
-        transition: background $fade-in-length ease-out;
         
-        &:hover {
-            color: $main-color;
-            background: rgba(0, 0, 0, 0.5);
-            transition: background $fade-in-length ease-in;
-        }
-    }
-}
-
-.layout--julie-home {
-    .page__hero {
-        @include breakpoint($medium) {
-          float: right;
-          width: 50%;
+        .greedy-nav {
+            a {
+                color: $main-color !important;
+            }
         }
 
-        @include breakpoint($large) {
-          width: 50%
-        }
     }
 
-    #main {
-        padding-top: 25px;
-        border-top: 5px solid $main-color;
-    }
 
+    // NEWS CAROUSEL STYLING
     .carousel-container {
         margin: 0;
         padding: 0;
         width: 100%;
+
+        .carousel-inner {
+            margin: 1em;
+            padding: 3em;
+        }
+
+        #news-carousel {
+            margin: 1em;
+
+            .carousel-indicators {
+                bottom: 0;
+                left: 0;
+                margin-bottom: 0;
+                margin-left: 0;
+                margin-top: 10px;
+                width: 100%;    
+
+                li {
+                    border-color: $main-color;
+                }
+
+                li.active {
+                    background-color: $main-color;
+                }
+            }
+
+            .item {
+                width: 75%;
+                margin: 0 auto;
+            }
+
+            img {
+                max-height: none !important;
+                margin: 0 auto;
+                float: left;
+
+                @include breakpoint($medium) {
+                    width: 50%;
+                }
+            }
+
+            .item-caption {
+                float: right;
+                padding: 1em 0em;
+
+                @include breakpoint($medium) {
+                    width: 50%;
+                    padding: 0em 1em;
+                }
+            }
+
+            .item-title {
+                margin-top: 0;
+            }
+            .item-date {
+                font-weight: 300;
+                font-style: italic;
+            }
+
+            .item-description {
+                padding-top: 1em;
+            }
+        }
     }
 
-    .carousel-inner {
-        padding: 3em;
-        margin: 1em;
-    }
 
-    #news-carousel {
-        margin: 1em;
-
-        .carousel-indicators {
-            left: 0;
-            margin-left: 0;
-            width: 100%;    
-            bottom: 0;
-            margin-bottom: 0;
-            margin-top: 10px;
-
-            li {
-                border-color: $main-color;
-            }
-
-            li.active {
-                background-color: $main-color;
-            }
-        }
-
-        .item {
-            width: 75%;
-            margin: 0 auto;
-        }
-
-        img {
-            max-height: none !important;
-            margin: 0 auto;
-            float: left;
-
-            @include breakpoint($medium) {
-                width: 50%;
-            }
-        }
-
-        .item-caption {
-            float: right;
-            padding: 1em 0em;
-
-            @include breakpoint($medium) {
-                width: 50%;
-                padding: 0em 1em;
-            }
-        }
-
-        .item-title {
-            margin-top: 0;
-        }
-        .item-date {
-            font-weight: 300;
-            font-style: italic;
-        }
-
-        .item-description {
-            padding-top: 1em;
-        }
-    }
-
-    .blurbs {    
+    // PRESS SECTION STYLING
+    .blurbs {
       overflow: auto;
 
       h2 {
@@ -420,65 +306,136 @@ html, body
     }
 }
 
-.layout--julie-gallery {
-    .archive {
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-        margin-top: 1em;
+
+// ABOUT STYLING
+.layout--julie-about {
+    #main {
+        @include breakpoint($medium) {
+            width: 75%;
+        }
+        @include breakpoint($large) {
+            width: 55%;
+        }
+    }
+
+    .about-text {
+        color: $darker-main-color;
+        padding-right: 1em;
+        text-align: justify;
+
+        h2 {
+            color: $darker-main-color;
+            margin-top: 0;
+            margin-bottom: 1em;
+        }
+
+        > p:not(:last-child){
+            margin-bottom: 1.5em;
+        }
+
+        @include breakpoint($medium) {
+            font-size: 16px;
+            width: 50%;
+            float: left;
+        }
+    }
+
+    .about-image {
+        @include breakpoint($medium) {
+            width: 50%;
+            float: right;
+            padding-left: 1em;
+        }
+    }
+}
+
+
+// RESUME STYLING
+.layout--julie-resume {
+    h2 {
+        margin: 0;
+    }
+
+    .initial-content {
+        @include breakpoint($medium) {
+            margin: 0 auto;
+            width: 65%;
+        }
+    }
+
+    .resume-iframe {
+        display: block;
+        width: 100%;
+        min-height: 400px;
+
+        @include breakpoint($medium) {
+            min-height: 700px;
+        }
+    }
+
+    .dl-link {
+        color: $main-color;
+    }
+
+    div.resumes > div.resume:not(:last-child)
+    { 
+        padding-bottom: 2em;
+    }
+}
+
+
+// MEDIA STYLING
+.layout--julie-media {
+    #main {
+        @include breakpoint($medium) {
+            float: right;
+            width: calc(100% - 200px);
+            padding-right: 200px;
+        }
     }
 
     .overall-figure {
         columns: 2;
+        column-gap: 0;
     }
 
     .crop {
         margin: 0.25%;
 
         img {
-            border-radius: 0px;
+            border-radius: 0;
             margin: 0;
         }
     }
 }
 
-.carousel-control {
-    &.right {
-        background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.08) 100%) !important;
-        background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.08) 100%) !important;
-        background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.08))) !important;
-        background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.08) 100%) !important;
-    }
-    &.left {
-        background-image: -webkit-linear-gradient(left,rgba(0,0,0,.08) 0,rgba(0,0,0,.0001) 100%) !important;
-        background-image: -o-linear-gradient(left,rgba(0,0,0,.08) 0,rgba(0,0,0,.0001) 100%) !important;
-        background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.08)),to(rgba(0,0,0,.0001))) !important;
-        background-image: linear-gradient(to right,rgba(0,0,0,.08) 0,rgba(0,0,0,.0001) 100%) !important;
+
+// CONTACT STYLING
+.layout--julie-contact {
+    iframe {
+        width: 100%;
     }
 }
 
+
+// FOOTER STYLING
 #footer {
     background-color: white;
 
     .page__footer-copyright {
-        font-family: Garamond !important;
+        font-family: $garamond !important;
+        color: black;
+        margin-top: 0;
     }
 
-    a {
+    a:hover {
+        color: $main-color;
         text-decoration: none;
-        font-size: inherit;
-        &:hover {
-            color: $main-color;
-        }
     }
 }
 
-.page__footer {
-    color: black !important;
-    margin-top: 0;
-}
 
-
+// STYLING FOR JS EFFECTS
 .fade-in-scroll {
     opacity: 0;
 }

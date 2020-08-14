@@ -5,7 +5,6 @@ title_image_header:
   button:
     - label: "Resume"
       url: "/resume"
-
 press:
   section_title: Press
   blurbs:

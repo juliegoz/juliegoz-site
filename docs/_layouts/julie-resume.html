@@ -1,19 +1,38 @@
 ---
-layout: archive
+layout: default
 ---
-<div>
-	<h2>THEATRE RESUME </h2> 
-	<a class="dl-link" href="{{ site.baseurl }}/assets/094a3a_8bf234f3982f4a998138c08d005baee0.pdf" download>
-	  [Download]
-	</a>
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+    {% include sidebar.html %}
+
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    
+    {% if page.resumes %}
+        <div class="resumes">
+            {% for resume in page.resumes %}
+                <div class="resume">
+                  <h2>{{ resume.title }}</h2> 
+                  <a class="dl-link" href="{{ site.baseurl }}{{ resume.path }}" download>
+                    [Download]
+                  </a>
+                  <iframe class="resume-iframe" src="{{ site.baseurl }}{{ resume.path }}#toolbar=0">
+                  </iframe>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
 </div>
-<iframe class="resume-iframe" src="{{ site.baseurl }}/assets/094a3a_8bf234f3982f4a998138c08d005baee0.pdf#toolbar=0">
-</iframe>
-
-
-<h2>FILM RESUME</h2>
-<a class="dl-link" href="{{ site.baseurl }}/assets/JulietaGozaloResume2020.pdf" download>
-  [Download]
-</a>
-<iframe src="{{ site.baseurl }}/assets/JulietaGozaloResume2020.pdf" class="resume-iframe">
-</iframe>

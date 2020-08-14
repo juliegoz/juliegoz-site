@@ -1,5 +1,5 @@
 ---
-layout: julie-gallery
+layout: julie-media
 title: MEDIA
 permalink: /media/
 gallery: 
@@ -143,6 +143,4 @@ gallery:
     image_path: assets/images/production_photos/107267995_1344600845734020_1866847768196093304_n.jpg
     alt: Production image21
     title: The Servant of Two Masters
-
-
 ---

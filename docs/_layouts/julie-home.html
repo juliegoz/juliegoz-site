@@ -1,20 +1,19 @@
 ---
 layout: julie-hero
 ---
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/> -->
-
 {{ content }}
 
-<div class="blurbs fade-in-scroll">
-  <h2>{{ page.press.section_title }}</h2>
+{% if page.press %}
+    <div class="blurbs fade-in-scroll">
+        <h2>{{ page.press.section_title }}</h2>
 
-	{% for b in page.press.blurbs %}
-		<div class="blurb">
-			<p>{{ b.quote }}</p>
-			<p class="source"> - {{ b.source }}</p>
-		</div>
-	{% endfor %}
-</div>
-
+        {% for b in page.press.blurbs %}
+            <div class="blurb">
+                <p>{{ b.quote }}</p>
+                <p class="source"> - {{ b.source }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
 
 {% include carousel.html %}
