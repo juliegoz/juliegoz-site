@@ -55,14 +55,6 @@ gallery:
     image_path: assets/images/production_photos/107865261_2933706570091360_8779970501477119916_n.jpg
     alt: Production image29
     title: The Head That Wears the Crown
-  - url: assets/images/production_photos/107701397_208750263710804_3269333890622280661_n.jpg
-    image_path: assets/images/production_photos/107701397_208750263710804_3269333890622280661_n.jpg
-    alt: Production image6
-    title: Infinite Future Bernstein's Lasting Impact
-  - url: assets/images/production_photos/107842416_3289062231185216_5642710933953238033_n.jpg
-    image_path: assets/images/production_photos/107842416_3289062231185216_5642710933953238033_n.jpg
-    alt: Production image16
-    title: Infinite Future Bernstein's Lasting Impact
   - url: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     image_path: assets/images/production_photos/107718080_599153217642751_3175416021105105844_n.jpg
     alt: Production image24
