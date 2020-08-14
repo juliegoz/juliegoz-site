@@ -1,6 +1,6 @@
 ---
 layout: julie-home
-fullpage_hero_image: "/assets/images/sunflower2.JPG"
+fullpage_hero_image: "/assets/images/sunflower.JPG"
 title_image_header:
   button:
     - label: "Resume"
