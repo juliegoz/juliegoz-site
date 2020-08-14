@@ -143,8 +143,7 @@ html
         margin-bottom: 3em;
         padding: 10px;
         position: absolute;
-        text-align: center;
-        text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.1);
+        text-align: left;
         top: 25%;
         width: 100%;
 
@@ -154,18 +153,21 @@ html
             width: 33.33%;
         }
 
+        h1 {
+            color: white;
+        }
+
         .btn {
             background: transparent;
-            border-color: $main-color;
+            border-color: white;
             border-radius: 0;
-            color: $main-color;
+            color: white;
             font-family: $garamond !important;
             padding: 1em 1.5em;
             transition: background $fade-in-length ease-out;
             
             &:hover {
                 background: rgba(0, 0, 0, 0.5);
-                color: $main-color;
                 transition: background $fade-in-length ease-in;
             }
         }
