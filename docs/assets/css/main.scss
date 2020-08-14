@@ -26,6 +26,7 @@ $caption-font-family: $garamond !default;
 // SITE-WIDE STYLING
 body {
     font-family: $garamond !important;
+    height: 100%;
 
     h1, h2, h3 {
         color: $main-color;
