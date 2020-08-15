@@ -5,7 +5,6 @@ title_image_header:
   button:
     - label: "RESUME"
       url: "/resume"
-<h1 id="page-title" class="page__title" itemprop="headline">JULIETA GOZALO</h1>
 press:
   section_title: PRESS
   blurbs:
