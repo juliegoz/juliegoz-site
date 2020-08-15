@@ -331,6 +331,7 @@ html
     .section-background {
         height: 35vh;
         position: relative;
+        color: $darker-main-color
     }
 
     .text-button-wrapper {   
@@ -339,7 +340,7 @@ html
         padding-left: 1em;
 
         h1 { 
-            color: $darker-main-color;
+            color: white;
 
             @include breakpoint($medium) {
                 width: 50%;
@@ -353,14 +354,14 @@ html
         }
     }
     .about-text {
-        color: black;
+        color: white;
         float: none;
         margin: 0 auto;
         padding-right: 1em;
         text-align: justify;
 
         h2 {
-            color: black;
+            color: white;
             font-size: 25px;
             font-weight: 200;
             margin-top: 0;
