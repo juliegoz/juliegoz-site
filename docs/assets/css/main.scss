@@ -144,8 +144,8 @@ html
         padding: 8px;
         position: absolute;
         text-align: bottom left;
-        top: 25%;
-        width: 50%;
+        top: 20%;
+        width: 40%;
 
         @include breakpoint($medium) {
             top: 50%;
