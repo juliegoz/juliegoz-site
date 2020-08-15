@@ -1,7 +1,7 @@
 ---
 layout: julie-about
 permalink: /about/
-title: About
+title: ABOUT
 fullpage_hero_image: "/assets/images/alice.JPG"
 header_text: Julieta Gozalo is an actor, singer, and musician from the Washington DC area. 
 ---
