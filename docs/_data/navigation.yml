@@ -1,9 +1,9 @@
 main:
-  - title: "About"
+  - title: "ABOUT"
     url: /about/
-  - title: "Resume"
+  - title: "RESUME"
     url: /resume/
-  - title: "Media"
+  - title: "MEDIA"
     url: /media/
-  - title: "Contact"
+  - title: "CONTACT"
     url: /contact/
