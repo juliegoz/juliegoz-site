@@ -154,14 +154,14 @@ html
         }
 
         h1 {
-            color: black;
+            color: white;
         }
 
         .btn {
             background: transparent;
-            border-color: black;
+            border-color: white;
             border-radius: 0;
-            color: black;
+            color: white;
             font-family: $garamond !important;
             padding: 1em 1.5em;
             transition: background $fade-in-length ease-out;
