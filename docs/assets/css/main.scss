@@ -331,7 +331,6 @@ html
     .section-background {
         height: 35vh;
         position: relative;
-        color: $darker-main-color
     }
 
     .text-button-wrapper {   
@@ -354,14 +353,14 @@ html
         }
     }
     .about-text {
-        color: white;
+        color: $darker-main-color;
         float: none;
         margin: 0 auto;
         padding-right: 1em;
         text-align: justify;
 
         h2 {
-            color: white;
+            color: $darker-main-color;
             font-size: 25px;
             font-weight: 200;
             margin-top: 0;
