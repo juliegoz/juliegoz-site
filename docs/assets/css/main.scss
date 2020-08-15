@@ -416,7 +416,7 @@ html
 .layout--julie-media {
     #main {
         @include breakpoint($medium) {
-            float: right;
+            float: center;
             width: calc(100% - 200px);
             padding-right: 200px;
         }
