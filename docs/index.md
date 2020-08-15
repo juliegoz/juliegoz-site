@@ -6,7 +6,7 @@ title_image_header:
     - label: "Resume"
       url: "/resume"
 press:
-  section_title: Press
+  section_title: PRESS
   blurbs:
     - 
       title: "Infinite Future: Bernstein's Lasting Impact"
@@ -21,16 +21,16 @@ press:
       quote: "One of the most unifying and delightful aspects of the show is the cleaning staff, played by Gozalo and Denman, who not only reset the stage between each scene, but also get their own, nearly wordless yet entirely satisfying, story arc."
       source: "DC Theatre Scene"
 news:
-  section_title: News
+  section_title: NEWS
   news_carousel:
     - title: "WOMXN ON FIRE FESTIVAL AT KEEGAN THEATRE"
       date: March 2020
-      text: "Julieta was excited to make her Keegan Theatre debut at the WOMXN on Fire Festival this March. She performed in the two person play First Chair. \n The WOMXN on Fire Festival is the only one of its kind in the DMV. Over the course of a week, audiences have the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
+      text: "Julieta was excited to make her Keegan Theatre debut at the WOMXN on Fire Festival. She performed in the two person play First Chair. \n Over the course of a week, audiences have the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
       image_url: "assets/images/news_carousel/WOMXN-on-Fire-Logo-Square_edited_edited.jpg"
     - 
       title: "CRYSTAL CREEK MOTEL AT FLYING V"
       date: "October - November, 2019"
-      text: "Julieta was thrilled to make her Flying V debut in the world premiere of Crystal Creek Motel as Delfin and Ensemble. \n This original and innovative production features six auteur directors – led by Associate Artistic Director Lee Liebeskind – a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
+      text: "Julieta was thrilled to make her Flying V debut in the world premiere of Crystal Creek Motel. \n This original and innovative production features six auteur directors – led by Associate Artistic Director Lee Liebeskind – a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
       image_url: "assets/images/news_carousel/IMG_0286_JPG.jpg"
     - 
       title: "CAT IN THE HAT AT ADVENTURE THEATRE"
@@ -50,6 +50,6 @@ news:
     - 
       title: "INFINITE FUTURE: BERNSTEIN'S LASTING IMPACT AT MONUMENTAL THEATRE COMPANY"
       date: "February 2018"
-      text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Leonard Bernstein's 100th birthday."
+      text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Bernstein's 100th birthday."
       image_url: "assets/images/news_carousel/IMG_8639-2.jpg"
 ---
