@@ -338,7 +338,7 @@ html
         padding-left: 1em;
 
         h1 { 
-            color: white;
+            color: $darker-main-color;
 
             @include breakpoint($medium) {
                 width: 50%;
@@ -352,7 +352,7 @@ html
         }
     }
     .about-text {
-        color: $darker-main-color;
+        color: black;
         float: none;
         margin: 0 auto;
         padding-right: 1em;
