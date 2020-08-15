@@ -359,7 +359,7 @@ html
         text-align: justify;
 
         h2 {
-            color: $darker-main-color;
+            color: black;
             font-size: 25px;
             font-weight: 200;
             margin-top: 0;
@@ -402,7 +402,7 @@ html
     }
 
     .dl-link {
-        color: $main-color;
+        color: black;
     }
 
     div.resumes > div.resume:not(:last-child)
