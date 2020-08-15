@@ -3,7 +3,7 @@ layout: julie-home
 fullpage_hero_image: "/assets/images/sunflower.JPG"
 title_image_header:
   button:
-    - label: "Resume"
+    - label: "RESUME"
       url: "/resume"
 press:
   section_title: PRESS
