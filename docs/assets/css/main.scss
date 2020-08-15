@@ -107,7 +107,7 @@ html
         }
     }
     .navicon, .navicon::before, .navicon::after {
-        background: $main-color !important;
+        background: #000000 !important;
     }
 }
 
@@ -192,7 +192,7 @@ html
         
         .greedy-nav {
             a {
-                color: $main-color !important;
+                color: #000000 !important;
             }
         }
 
