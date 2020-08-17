@@ -53,3 +53,4 @@ news:
       text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Bernstein's 100th birthday."
       image_url: "assets/images/news_carousel/IMG_8639-2.jpg"
 ---
+<script type="text/javascript" src="assets/js/height-adjuster.js"></script>
