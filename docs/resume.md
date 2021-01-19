@@ -3,7 +3,7 @@ layout: julie-resume
 permalink: /resume/
 resumes:
   - title: THEATRE RESUME
-    path: "/assets/094a3a_8bf234f3982f4a998138c08d005baee0.pdf"
+    path: "/assets/JULIETA GOZALO Theatre Resume 2021.pdf"
   - title: FILM RESUME
-    path: "/assets/JulietaGozaloResume2020.pdf"
+    path: "/assets/Gozalo, Julieta Resume 2021 (dragged).pdf"
 ---
