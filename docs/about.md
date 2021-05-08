@@ -2,7 +2,7 @@
 layout: julie-about
 permalink: /about/
 title: ABOUT
-fullpage_hero_image: "/assets/images/vamp.jpg"
+fullpage_hero_image: "/assets/images/vamp2.jpg"
 header_text: Julieta Gozalo is an actor, singer, and musician from the Washington DC area. 
 ---
 She has worked in many different college and pre-professional programs, including Montgomery College Summer Dinner Theatre, Overtures: Musical Theatre Institute at Signature Theatre, and at The University of Maryland, where she graduated from in December 2019 with a dual degree in Communication Studies and Theatre, as well as a minor in Professional Writing.
