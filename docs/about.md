@@ -3,10 +3,10 @@ layout: julie-about
 permalink: /about/
 title: ABOUT
 fullpage_hero_image: "/assets/images/dark2.jpg"
-header_text: Julieta Gozalo is an actor, singer, and musician from the Washington DC area. 
+header_text: Hi! My name Julieta and here's a little about me: 
 ---
-She has worked in many different college and pre-professional programs, including Montgomery College Summer Dinner Theatre, Overtures: Musical Theatre Institute at Signature Theatre, and at The University of Maryland, where she graduated from in December 2019 with a dual degree in Communication Studies and Theatre, as well as a minor in Professional Writing.
+I was born in Peru, raised and currently living in the Washington DC area, I've been working as an actor for the past 4 years. I graduated from The University of Maryland, with a degree in Communication Studies, Theatre, and Professional Writing.
 
-While she was still a student, she had the opportunity to begin her professional career performing with Helen Hayes Nominated companies such as Monumental Theatre Company, Ally Theatre Company, Adventure Theatre, and Flying V. In film, she's worked as an actor and model for companies including Apple INC., Washington Nationals, Six Flags, Destination DC, WTOP News, and the University of Maryland Global Campus.
+While I was still a student, I had the opportunity to begin my professional career performing with Helen Hayes Nominated companies such as Monumental Theatre Company, Ally Theatre Company, Adventure Theatre, and Flying V. In film, I've worked as an actor and model for companies including Apple INC., Washington Nationals, Six Flags, Destination DC, WTOP News, and the University of Maryland.
 
-Her most recent professional performance was in Keegan Theatre's Womxn on Fire Festival. In her spare time, Julieta loves petting dogs she comes across on the street and drinking way too much bubble tea.
+If Elle Woods and Fiona from Shameless had a baby it would be me. In my spare time, I love beating almost anyone at chess, petting dogs I comes across on the street, exploring fun undiscovered spots in the city and drinking way too much bubble tea.
