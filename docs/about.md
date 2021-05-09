@@ -3,7 +3,7 @@ layout: julie-about
 permalink: /about/
 title: ABOUT
 fullpage_hero_image: "/assets/images/dark2.jpg"
-header_text: Hi! My name Julieta and here's a little about me: 
+header_text: Hi! My name Julieta and here's a little about me 
 ---
 I was born in Peru, raised and currently living in the Washington DC area, I've been working as an actor for the past 4 years. I graduated from The University of Maryland, with a degree in Communication Studies, Theatre, and Professional Writing.
 
