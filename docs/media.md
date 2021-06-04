@@ -8,6 +8,14 @@ gallery:
     alt: Production image70
     title: Headshot 1
   - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
+    image_path: assets/images/production_photos/GOZALO, JULIETA_Headshot2.jpg
+    alt: Production image71
+    title: Headshot 2
+  - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
+    image_path: assets/images/production_photos/GOZALO, JULIETA_Headshot3.jpg
+    alt: Production image72
+    title: Headshot 3
+  - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     alt: Production image18
     title: Destination DC   
