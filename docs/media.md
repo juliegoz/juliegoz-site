@@ -3,7 +3,7 @@ layout: julie-media
 title: MEDIA
 permalink: /media/
 gallery: 
-- url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
+  - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     image_path: assets/images/production_photos/GOZALO, JULIETA_Headshot1.jpg
     alt: Production image70
     title: Headshot 1
