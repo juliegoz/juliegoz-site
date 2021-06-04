@@ -59,6 +59,10 @@ gallery:
     image_path: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
     alt: Production image33
     title: The Head That Wears the Crown
+  - url: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
+    image_path: assets/images/production_photos/Julieta Gozalo Headshot 3.jpg
+    alt: Production image33
+    title: Headshot 3
   - url: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     image_path: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     alt: Production image26
