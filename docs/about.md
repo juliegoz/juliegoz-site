@@ -15,4 +15,4 @@ I became really good at chess during the pandemic, and I can beat almost anyone 
 
 If Elle Woods and Fiona from Shameless had a baby it would be me. 
 
-My favorite book is Eragon, favorite movie is Singin' in the Rain, favorite actor is Willem Dafoe. Thanks for visiting my site!
+My favorite book is Eragon, favorite movie is Singin' in the Rain, and my favorite actor is Willem Dafoe. Thanks for visiting my site!
