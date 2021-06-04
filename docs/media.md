@@ -31,10 +31,6 @@ gallery:
     image_path: assets/images/production_photos/107702804_303343290814425_8222527887785833385_n.jpg
     alt: Production image14
     title: WTOP News
-  - url: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
-    image_path: assets/images/production_photos/107822148_565474460808079_13110870168487288_n.png
-    alt: Production image14
-    title: University of Maryland Global Campus
   - url: assets/images/clove.jpg
     image_path: assets/images/clove.jpg
     alt: Production image60
