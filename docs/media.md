@@ -15,6 +15,14 @@ gallery:
     image_path: assets/images/production_photos/GOZALO, JULIETA_Headshot3.jpg
     alt: Production image72
     title: Headshot 3
+  - url: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
+    image_path: assets/images/production_photos/Julieta Gozalo Headshot 3.jpg
+    alt: Production image76
+    title: Headshot 4
+  - url: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
+    image_path: assets/images/production_photos/print-2.jpg
+    alt: Production image77
+    title: Headshot 5
   - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
     alt: Production image18
@@ -63,14 +71,6 @@ gallery:
     image_path: assets/images/production_photos/107798554_1664250873742943_3794957563725156235_n.jpg
     alt: Production image26
     title: Overtures Signature Theatre
-  - url: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
-    image_path: assets/images/production_photos/Julieta Gozalo Headshot 3.jpg
-    alt: Production image76
-    title: Headshot 3
-  - url: assets/images/production_photos/107650945_728052697770195_424021765811450018_n.jpg
-    image_path: assets/images/production_photos/print-2.jpg
-    alt: Production image77
-    title: Headshot 4
   - url: assets/images/production_photos/107365437_588215231835795_5673705112867641152_n.jpg
     image_path: assets/images/production_photos/107365437_588215231835795_5673705112867641152_n.jpg
     alt: Production image27
