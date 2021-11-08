@@ -1,7 +1,7 @@
 # Site settings
-title: &name JULIETA GOZALO
+title: &name JULIETA GOZALO-MICHAUD
 email: juliegozalo@gmail.com
-description: &description JULIETA GOZALO, ACTOR | SINGER | MUSICIAN
+description: &description JULIETA GOZALO-MICHAUD, ACTOR | SINGER | MUSICIAN
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://juliegoz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 minimal_mistakes_skin: "contrast"
