@@ -2,7 +2,7 @@
 layout: julie-about
 permalink: /about/
 title: ABOUT
-fullpage_hero_image: "/assets/images/dark2.jpg"
+fullpage_hero_image: "/assets/images/BK.JPG"
 header_text: Hi! My name Julieta and here's a little about me 
 ---
 Born in Peru, raised and currently splitting my time between NYC and Washington DC. 
