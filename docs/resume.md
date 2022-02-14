@@ -5,5 +5,5 @@ resumes:
   - title: THEATRE RESUME
     path: "/assets/6.pdf"
   - title: FILM RESUME
-    path: "/assets/JulietaGozaloResume2021.pdf"
+    path: "/assets/7.pdf"
 ---
