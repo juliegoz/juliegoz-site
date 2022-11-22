@@ -25,7 +25,7 @@ gallery:
     title: Headshot 5
   - url: assets/images/Headshot6.jpg
     image_path: docs/assets/images/Headshot6.jpg
-    alt: Production image72
+    alt: Headshot 6
     title: Headshot 6
     
 ---
