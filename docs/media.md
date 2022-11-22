@@ -24,7 +24,8 @@ gallery:
     alt: Production image77
     title: Headshot 5
   - url: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
-    image_path: assets/images/production_photos/107628620_2598821267024648_5775065180677135492_n.jpg
-    alt: Production image18
-
+    image_path: docs/assets/images/Headshot6.jpg
+    alt: Production image72
+    title: Headshot 6
+    
 ---
