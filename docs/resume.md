@@ -3,7 +3,7 @@ layout: julie-resume
 permalink: /resume/
 resumes:
   - title: FILM RESUME
-    path: "/assets/1.pdf"
+    path: "/assets/3.pdf"
   - title: THEATRE RESUME
     path: "/assets/4.pdf"
 ---
