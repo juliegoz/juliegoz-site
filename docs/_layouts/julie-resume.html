@@ -26,11 +26,11 @@ layout: default
             {% for resume in page.resumes %}
                 <div class="resume">
                   <h2>{{ resume.title }}</h2> 
-                  <a class="dl-link" href="{{ site.baseurl }}{{ resume.path }}" download>
+                  <a class="dl-link" href="{{ site.baseurl }}{{ resume.path_pdf }}" download>
                     [Download]
                   </a>
-                  <iframe class="resume-iframe" src="{{ site.baseurl }}{{ resume.path }}#toolbar=0">
-                  </iframe>
+                  <img class="resume-iframe" src="{{ site.baseurl }}{{ resume.path }}">
+                  </img>
                 </div>
             {% endfor %}
         </div>
