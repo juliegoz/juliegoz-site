@@ -9,8 +9,6 @@ I've been lucky enough throughout my life to live in cities like Lima, Los Angel
 
 I studied at The University of Maryland, where on top of working part time and acting professionally onstage, I obtained a degree in Communication Studies, Theatre, and Professional Writing.
 
-I rediscovered my love of chess during the pandemic (partly due to The Queen's Gambit), and it's become one of my favorite past times since. I'm always down for a quick round!
-
 Since I've graduated, I've been so fortunate to continue exploring my love of storytelling, and I've gotten the chance to work with Heidi Marshall Studio, Jamie Carroll, Upright Citizens Brigade, and more.
 
 Thanks for checking me out!
