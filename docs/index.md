@@ -35,21 +35,21 @@ news:
     - 
       title: "CAT IN THE HAT AT ADVENTURE THEATRE"
       date: "June - August, 2019"
-      text: "Julieta was excited to work again with Adventure Theatre in their production of Cat in the Hat as the female swing. \nShe covered three different tracks, all of which she went on for, and had the opportunity to play the role of Sally for the extension week."
+      text: "From the moment his tall, red-and-white-striped hat appears around the door, Sally and her brother know that the cat in the hat is the funniest, most mischievous cat they have ever met. With the trickiest of tricks and craziest of ideas, he is certainly fun to play with. But what will mom find when she gets home...?"
       image_url: "assets/images/news_carousel/Louis-E_-Davis-as-The-Cat-Caroline-Wolfs.jpg"
     - 
       title: "WINNIE THE POOH AT ADVENTURE THEATRE"
       date: "March - May, 2019"
-      text: "Julieta made her Adventure Theatre debut as the Female Understudy in Winnie the Pooh. She had the opportunity to go on for one of the track she covered on closing day."
+      text: "Winnie the Pooh would spend every day of life humming tunes and stopping frequently to eat a "little something". But today, Pooh and Piglet have to find the Heffalump, watch Rabbit scheme to rid the forest of Kanga's dreaded bathtub, and help Eeyore search for his tail."
       image_url: "assets/images/news_carousel/pooh-Derrick-Truby-Jr-Billie-Krishawn-…p.jpg"
     - 
       title: "THE HEAD THAT WEARS THE CROWN AT ALLY THEATRE COMPANY"
       date: "February - March, 2019"
-      text: "Julieta worked on the world premiere of The Head That Wears the Crown as Bethanie. Ally Theatre Company recently received the John Aniello Award for Outstanding Emerging Theatre Company at the Helen Hayes Award this year."
+      text: "Told in a fast-moving, untraditional narrative, the world of a trio of high school girls is upset by the arrival of a likable new girl. When a revenge prank goes terribly wrong, the consequences will follow all of them into adulthood."
       image_url: "assets/images/news_carousel/IMG_0418_JPG.jpg"
     - 
       title: "INFINITE FUTURE: BERNSTEIN'S LASTING IMPACT AT MONUMENTAL THEATRE COMPANY"
       date: "February 2018"
-      text: "Julieta made her Monumental Theatre Company debut in Infinite Future: Bernstein's Lasting Impact, a new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Bernstein's 100th birthday."
+      text: "A new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Bernstein's 100th birthday."
       image_url: "assets/images/news_carousel/IMG_8639-2.jpg"
 ---
