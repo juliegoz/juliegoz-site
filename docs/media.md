@@ -54,5 +54,22 @@ gallery:
   - url: assets/images/production_photos/Bento Hug.jpg
     image_path: assets/images/production_photos/Bento Hug.jpg
     alt: Theatre
-    title: The Schooling of Bento Bonchev, Dir. Yury Urnov 
+    title: The Schooling of Bento Bonchev, Dir. Yury Urnov
+  - url: assets/images/production_photos/Bento Park.jpg
+    image_path: assets/images/production_photos/Bento Park.jpg
+    alt: Theatre
+    title: The Schooling of Bento Bonchev, Dir. Yury Urnov
+  - url: assets/images/production_photos/Bento Naked.jpg
+    image_path: assets/images/production_photos/Bento Naked.jpg
+    alt: Theatre
+    title: The Schooling of Bento Bonchev, Dir. Yury Urnov
+  - url: assets/images/production_photos/loveandinfo.jpg
+    image_path: assets/images/production_photos/loveandinfo.jpg
+    alt: Theatre
+    title: Love and Information, Dir. Jennifer Nelson
+    title: The Schooling of Bento Bonchev, Dir. Yury Urnov
+  - url: assets/images/production_photos/Overtures Hug.jpg
+    image_path: assets/images/production_photos/Overtures Hug.JPG
+    alt: Theatre
+    title: Overtures, Signature Theatre    
 ---
