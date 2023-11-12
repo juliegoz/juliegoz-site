@@ -59,7 +59,7 @@ Vanishing Girl is a powerful new musical by William Yanesh (music and lyrics) an
       title: "CRYSTAL CREEK MOTEL AT FLYING V"
       date: "October - November, 2019"
       text: "This original and innovative production features six auteur directors, a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
-      image_url: "assets/images/news_carousel/IMG_0286_JPG.jpg"
+      image_url: "assets/images/news_carousel/crystal.jpg"
     - 
       title: "CAT IN THE HAT AT ADVENTURE THEATRE"
       date: "June - August, 2019"
