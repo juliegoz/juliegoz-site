@@ -35,7 +35,7 @@ news:
     - 
       title: "CAT IN THE HAT AT ADVENTURE THEATRE"
       date: "June - August, 2019"
-      text: "From the moment his tall, red-and-white-striped hat appears around the door, Sally and her brother know that the cat in the hat is the funniest, most mischievous cat they have ever met. With the trickiest of tricks and craziest of ideas, he is certainly fun to play with. But what will mom find when she gets home...?"
+      text: "From the moment his tall, red-and-white-striped hat appears around the door, Sally and her brother know that the cat in the hat is the funniest, most mischievous cat they have ever met. With the trickiest of tricks and craziest of ideas, he is certainly fun to play with. But what will mom find when she gets home?"
       image_url: "assets/images/news_carousel/Louis-E_-Davis-as-The-Cat-Caroline-Wolfs.jpg"
     - 
       title: "WINNIE THE POOH AT ADVENTURE THEATRE"
