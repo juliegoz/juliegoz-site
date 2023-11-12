@@ -11,12 +11,8 @@ gallery:
     image_path: assets/images/production_photos/Tiger Fork 2.jpg
     alt: Tiger Fork
     title: Visit Washington DC, The Only 1 Campaign
-  - url: assets/images/production_photos/print-2.jpg
-    image_path: assets/images/production_photos/print-2.jpg
-    alt: Headshot 3
-    title: Headshot 4
   - url: assets/images/production_photos/Paradise1.JPG
-    image_path: assets/images/production_photos/Paradise2.JPGG
+    image_path: assets/images/production_photos/Paradise1.JPG
     alt: Theatre
     title: The Trouble With Paradise, Columbia University Playwriting Festival
   - url: assets/images/production_photos/Paradise2.JPG
