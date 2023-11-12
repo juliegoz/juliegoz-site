@@ -25,12 +25,12 @@ news:
   news_carousel:
     - title: "WOMXN ON FIRE FESTIVAL AT KEEGAN THEATRE"
       date: March 2020
-      text: "Julieta was excited to make her Keegan Theatre debut at the WOMXN on Fire Festival. She performed in the two person play First Chair. \n Over the course of a week, audiences have the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
+      text: "The 4th annual WOMXN on Fire Festival at Keegan Theatre. \n Over the course of a week, audiences had the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
       image_url: "assets/images/news_carousel/WOMXN-on-Fire-Logo-Square_edited_edited.jpg"
     - 
       title: "CRYSTAL CREEK MOTEL AT FLYING V"
       date: "October - November, 2019"
-      text: "Julieta was thrilled to make her Flying V debut in the world premiere of Crystal Creek Motel. \n This original and innovative production features six auteur directors – led by Associate Artistic Director Lee Liebeskind – a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
+      text: "This original and innovative production features six auteur directors – led by Associate Artistic Director Lee Liebeskind – a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
       image_url: "assets/images/news_carousel/IMG_0286_JPG.jpg"
     - 
       title: "CAT IN THE HAT AT ADVENTURE THEATRE"
