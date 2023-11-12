@@ -27,7 +27,7 @@ news:
       title: "AN UN-HERO'S JOURNEY"
       date: "October 2023"
       text: "Featuring a book, music, and lyrics by Brett Macias and additional book and lyrics by Jessica Carmona, the new musical is based on events from Macias’ life. The story follows Hector Gonzalez and his half-sister, Jasmine, as they travel to Costa Rica in search of their father, who went missing under mysterious circumstances six years earlier."
-      image_url: "assets/images/news_carousel/Unheros.jpg"
+      image_url: "assets/images/news_carousel/UnHeros.jpg"
     - 
       title: "SILENT INTRODUCTION"
       date: "June 2023"
@@ -37,7 +37,7 @@ news:
       title: "LEAH AND HER DYBBUK"
       date: "May 2023"
       text: "Lila Rose Kaplan shines light on gender and identity as she reimagines Ansky’s classic Yiddish play, The Dybbuk. Her new play is a comic drama about a photographer and a Rabbi and their history with The Dybbuk. With a female ensemble, they revisit key moments from this classic story as they grapple with understanding a woman’s role in Jewish life and Jewish lore. What they discover is that new storytellers and new heroines are needed for love to truly flourish. Be the first audience ever to hear this early draft of a queer feminist take on the play that has haunted audiences for centuries."
-      image_url: "assets/images/news_carousel/Yidding.jpg"
+      image_url: "assets/images/news_carousel/Yiddish.jpg"
     - 
       title: "MAX AND WILLY'S LAST LAUGH"
       date: "January 2023"
