@@ -24,6 +24,33 @@ news:
   section_title: LATEST NEWS
   news_carousel:
     - 
+      title: "AN UN-HERO'S JOURNEY"
+      date: "October 2023"
+      text: "Featuring a book, music, and lyrics by Brett Macias and additional book and lyrics by Jessica Carmona, the new musical is based on events from Macias’ life. The story follows Hector Gonzalez and his half-sister, Jasmine, as they travel to Costa Rica in search of their father, who went missing under mysterious circumstances six years earlier."
+      image_url: "assets/images/news_carousel/Unheros.jpg"
+    - 
+      title: "SILENT INTRODUCTION"
+      date: "June 2023"
+      text: "A pretentious record store clerk must defend her music taste after a finance bro tries to purchase a rare used record."
+      image_url: "assets/images/news_carousel/Silent.jpg"
+    - 
+      title: "LEAH AND HER DYBBUK"
+      date: "May 2023"
+      text: "Lila Rose Kaplan shines light on gender and identity as she reimagines Ansky’s classic Yiddish play, The Dybbuk. Her new play is a comic drama about a photographer and a Rabbi and their history with The Dybbuk. With a female ensemble, they revisit key moments from this classic story as they grapple with understanding a woman’s role in Jewish life and Jewish lore. What they discover is that new storytellers and new heroines are needed for love to truly flourish. Be the first audience ever to hear this early draft of a queer feminist take on the play that has haunted audiences for centuries."
+      image_url: "assets/images/news_carousel/Yidding.jpg"
+    - 
+      title: "MAX AND WILLY'S LAST LAUGH"
+      date: "January 2023"
+      text: "When German cabaret stars Max Ehrlich and Willy Rosen arrived at the Westerbork Transit Camp in 1942, the star-struck commandant said, “A train leaves here for Auschwitz every Tuesday morning. If you do a cabaret performance on Monday nights, it will lift morale. And if you’re funny, you won’t have to get on the train!” So they were funny. For 18 months, they performed the funniest cabaret in Europe. This true story comes to life in Max & Willy’s Last Laugh, a new musical play based upon the actual comedy sketches, songs, and jokes that have been forgotten for over 70 years—until now"
+      image_url: "assets/images/news_carousel/MaxandWilly.jpg"
+    - 
+      title: "MAX AND WILLY'S LAST LAUGH"
+      date: "January 2023"
+      text: "Bright college student Luciana has always felt invisible. She leans on her one best friend, crushes on the girl at the comic shop from afar, and toils at writing alone. Suddenly, Luciana acquires electricity-related superpowers and finds that, like a battery, she’s slowly fading out. Can she figure out how to be seen before it’s too late?
+Vanishing Girl is a powerful new musical by William Yanesh (music and lyrics) and Hope Villanueva (book) and directed by Eric Jordan Young about feeling invisible and learning you’re not.
+"
+      image_url: "assets/images/news_carousel/Vanishing.jpg"
+    - 
       title: "WOMXN ON FIRE FESTIVAL AT KEEGAN THEATRE"
       date: March 2020
       text: "The 4th annual WOMXN on Fire Festival at Keegan Theatre. \n Over the course of a week, audiences had the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
@@ -38,19 +65,4 @@ news:
       date: "June - August, 2019"
       text: "From the moment his tall, red-and-white-striped hat appears around the door, Sally and her brother know that the cat in the hat is the funniest, most mischievous cat they have ever met. With the trickiest of tricks and craziest of ideas, he is certainly fun to play with. But what will mom find when she gets home?"
       image_url: "assets/images/news_carousel/Louis-E_-Davis-as-The-Cat-Caroline-Wolfs.jpg"
-    - 
-      title: "WINNIE THE POOH AT ADVENTURE THEATRE"
-      date: "March - May, 2019"
-      text: "Winnie the Pooh would spend every day of life humming tunes and stopping frequently to eat a "little something". But today, Pooh and Piglet have to find the Heffalump, watch Rabbit scheme to rid the forest of Kanga's dreaded bathtub, and help Eeyore search for his tail."
-      image_url: "assets/images/news_carousel/pooh-Derrick-Truby-Jr-Billie-Krishawn-…p.jpg"
-    - 
-      title: "THE HEAD THAT WEARS THE CROWN AT ALLY THEATRE COMPANY"
-      date: "February - March, 2019"
-      text: "Told in a fast-moving, untraditional narrative, the world of a trio of high school girls is upset by the arrival of a likable new girl. When a revenge prank goes terribly wrong, the consequences will follow all of them into adulthood."
-      image_url: "assets/images/news_carousel/IMG_0418_JPG.jpg"
-    - 
-      title: "INFINITE FUTURE: BERNSTEIN'S LASTING IMPACT AT MONUMENTAL THEATRE COMPANY"
-      date: "February 2018"
-      text: "A new, collaboratively devised, cabaret-style show that explores the influence of Leonard Bernstein’s musicals on contemporary musical theatre that celebrates Bernstein's 100th birthday."
-      image_url: "assets/images/news_carousel/IMG_8639-2.jpg"
 ---
