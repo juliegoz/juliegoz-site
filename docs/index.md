@@ -34,17 +34,17 @@ news:
       text: "A pretentious record store clerk must defend her music taste after a finance bro tries to purchase a rare used record."
       image_url: "assets/images/news_carousel/Silent.jpg"
     - 
-      title: "LEAH AND HER DYBBUK"
+      title: "LEAH AND HER DYBBUK AT THEATER J"
       date: "May 2023"
       text: "Lila Rose Kaplan shines light on gender and identity as she reimagines Ansky’s classic Yiddish play, The Dybbuk. Her new play is a comic drama about a photographer and a Rabbi and their history with The Dybbuk. With a female ensemble, they revisit key moments from this classic story as they grapple with understanding a woman’s role in Jewish life and Jewish lore. What they discover is that new storytellers and new heroines are needed for love to truly flourish. Be the first audience ever to hear this early draft of a queer feminist take on the play that has haunted audiences for centuries."
       image_url: "assets/images/news_carousel/Yiddish.jpg"
     - 
-      title: "MAX AND WILLY'S LAST LAUGH"
+      title: "MAX AND WILLY'S LAST LAUGH AT MOSAIC THEATER"
       date: "January 2023"
       text: "When German cabaret stars Max Ehrlich and Willy Rosen arrived at the Westerbork Transit Camp in 1942, the star-struck commandant said, “A train leaves here for Auschwitz every Tuesday morning. If you do a cabaret performance on Monday nights, it will lift morale. And if you’re funny, you won’t have to get on the train!” So they were funny. For 18 months, they performed the funniest cabaret in Europe. This true story comes to life in Max & Willy’s Last Laugh, a new musical play based upon the actual comedy sketches, songs, and jokes that have been forgotten for over 70 years—until now"
       image_url: "assets/images/news_carousel/MaxandWilly.jpg"
     - 
-      title: "MAX AND WILLY'S LAST LAUGH"
+      title: "VANISHING GIRL A NEW MUSICAL AT FLYING V"
       date: "January 2023"
       text: "Bright college student Luciana has always felt invisible. She leans on her one best friend, crushes on the girl at the comic shop from afar, and toils at writing alone. Suddenly, Luciana acquires electricity-related superpowers and finds that, like a battery, she’s slowly fading out. Can she figure out how to be seen before it’s too late?
 Vanishing Girl is a powerful new musical by William Yanesh (music and lyrics) and Hope Villanueva (book) and directed by Eric Jordan Young about feeling invisible and learning you’re not.
