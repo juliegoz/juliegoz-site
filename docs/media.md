@@ -30,7 +30,10 @@ gallery:
   - url: assets/images/production_photos/MaxandWilly.jpg
     image_path: assets/images/production_photos/MaxandWilly.jpg
     alt: Theatre
-    title: Max and Willy's Last Laugh, Mosaic Theater
+  - url: assets/images/production_photos/Vanishing_Press.jpg
+    image_path: assets/images/production_photos/Vanishing_Press.jpg
+    alt: Vanishing Girl Press Day
+    title: Vanishing Girl Press Day
   - url: assets/images/production_photos/BK Shoot.jpg
     image_path: assets/images/production_photos/BK Shoot.jpg
     alt: Film
