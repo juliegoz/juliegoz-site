@@ -41,7 +41,7 @@ news:
     - 
       title: "MAX AND WILLY'S LAST LAUGH AT MOSAIC THEATER"
       date: "January 2023"
-      text: "When German cabaret stars Max Ehrlich and Willy Rosen arrived at the Westerbork Transit Camp in 1942, the star-struck commandant said, “A train leaves here for Auschwitz every Tuesday morning. If you do a cabaret performance on Monday nights, it will lift morale. And if you’re funny, you won’t have to get on the train!” So they were funny. For 18 months, they performed the funniest cabaret in Europe. This true story comes to life in Max & Willy’s Last Laugh, a new musical play based upon the actual comedy sketches, songs, and jokes that have been forgotten for over 70 years—until now"
+      text: "When German stars Max Ehrlich and Willy Rosen arrived at the Westerbork Transit Camp, the commandant said, “A train leaves here for Auschwitz every Tuesday morning. If you do a cabaret performance on Monday nights, it will lift morale. If you’re funny, you won’t have to get on the train!” For 18 months, they performed the funniest cabaret in Europe. This true story comes to life in Max & Willy’s Last Laugh, a new musical play based upon the actual comedy sketches, songs, and jokes that have been forgotten for over 70 years—until now"
       image_url: "assets/images/news_carousel/MaxandWilly.jpg"
     - 
       title: "VANISHING GIRL A NEW MUSICAL AT FLYING V"
