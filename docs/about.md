@@ -5,7 +5,7 @@ title: ABOUT
 fullpage_hero_image: "/assets/images/BK1.jpg"
 header_text: Julieta is a NYC based artist
 ---
-With a pa.
+She has a strong passion for new and devised work centered around the latiné and immigrant experience.
 
 She studied at The University of Maryland, where on top of working part time and acting professionally onstage, she obtained a degree in Communication, Theatre, and Professional Writing. Alongside performing, she currently works for the Latiné Musical Theatre Lab, a New York based organization that develops and advocates for new latiné written works of musical theatre.
 
