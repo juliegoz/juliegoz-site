@@ -3,7 +3,7 @@ layout: julie-about
 permalink: /about/
 title: ABOUT
 fullpage_hero_image: "/assets/images/BK1.jpg"
-header_text: Hi! My name is Julieta
+header_text:
 ---
 I've been lucky enough throughout my life to live in cities like Lima, Los Angeles, and Washington DC, but now I get to call Brooklyn my home as I get to tell stories for a living.
 
