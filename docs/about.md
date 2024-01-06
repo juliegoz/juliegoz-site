@@ -3,12 +3,14 @@ layout: julie-about
 permalink: /about/
 title: ABOUT
 fullpage_hero_image: "/assets/images/BK1.jpg"
-header_text:
+header_text: Julieta is a NYC based artist
 ---
-I've been lucky enough throughout my life to live in cities like Lima, Los Angeles, and Washington DC, but now I get to call Brooklyn my home as I get to tell stories for a living.
+With a pa.
 
-I studied at The University of Maryland, where on top of working part time and acting professionally onstage, I obtained a degree in Communication Studies, Theatre, and Professional Writing.
+She studied at The University of Maryland, where on top of working part time and acting professionally onstage, she obtained a degree in Communication, Theatre, and Professional Writing. Alongside performing, she currently works for the Latiné Musical Theatre Lab, a New York based organization that develops and advocates for new latiné written works of musical theatre.
 
-Since I've graduated, I've been so fortunate to continue exploring my love of storytelling, and I've gotten the chance to work with Heidi Marshall Studio, Jamie Carroll, Upright Citizens Brigade, and more.
+Since graduating, she has been fortunate to continue exploring her love of storytelling, and work with Heidi Marshall Studio, Jamie Carroll, Upright Citizens Brigade, and more.
 
-Thanks for checking me out!
+She is represented by Bonafide and Emerging Artists and Bramante Artists. 
+
+UPCOMING: Law and Order, Episode #2301
