@@ -36,7 +36,7 @@ news:
     - 
       title: "LEAH AND HER DYBBUK AT THEATER J"
       date: "May 2023"
-      text: "Lila Rose Kaplan shines light on gender and identity as she reimagines Ansky’s classic Yiddish play, The Dybbuk. Her new play is a comic drama about a photographer and a Rabbi and their history with The Dybbuk. With a female ensemble, they revisit key moments from this classic story as they grapple with understanding a woman’s role in Jewish life and Jewish lore. What they discover is that new storytellers and new heroines are needed for love to truly flourish. Be the first audience ever to hear this early draft of a queer feminist take on the play that has haunted audiences for centuries."
+      text: "Lila Rose Kaplan shines light on gender and identity as she reimagines Ansky’s classic Yiddish play, The Dybbuk. Her new play is a comic drama about a photographer and a Rabbi and their history with The Dybbuk. With a female ensemble, they revisit key moments from this classic story as they grapple with understanding a woman’s role in Jewish life and Jewish lore."
       image_url: "assets/images/news_carousel/Yiddish.jpg"
     - 
       title: "MAX AND WILLY'S LAST LAUGH AT MOSAIC THEATER"
