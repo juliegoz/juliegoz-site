@@ -13,6 +13,6 @@ She currently works as an Associate Producer for the Latiné Musical Theatre Lab
 
 She has been fortunate to continue exploring her love of storytelling, and work with Heidi Marshall Studio, Jamie Carroll, Upright Citizens Brigade, and more.
 
-She is represented by Bonafide and Emerging Artists and Bramante Artists. 
+She is represented by Trillion Management and Bonafide and Emerging Artists. 
 
 UPCOMING: Law and Order, Episode #2301
