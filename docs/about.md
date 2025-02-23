@@ -2,7 +2,7 @@
 layout: julie-about
 permalink: /about/
 title: ABOUT
-fullpage_hero_image: "/assets/images/julieta-gozalo-michaud-DSCF8102.jpg"
+fullpage_hero_image: "/assets/images/bk1.jpg"
 header_text: Julieta is a NYC based artist
 ---
 She is a proud first generation Peruvian actor, singer, and musician currently living in Brooklyn, New York. She has a strong passion for new and devised work centered around the Latiné and immigrant experience.
