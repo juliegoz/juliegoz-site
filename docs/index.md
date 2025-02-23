@@ -1,6 +1,6 @@
 ---
 layout: julie-home
-fullpage_hero_image: "/assets/images/julieta-gozalo-michaud-DSCF8102.jpg"
+fullpage_hero_image: "/assets/images/julieta-gozalo-michaud-DSCF7951.jpg"
 title_image_header:
   button:
     - label: "RESUME"
