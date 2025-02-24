@@ -27,7 +27,7 @@ news:
       title: "LAW AND ORDER"
       date: "January 2024"
       text: "In the wake of a murder on campus, the line between free speech and hate speech at a university is examined."
-      image_url: "assets/images/news_carousel/L&O.jpg"
+      image_url: "assets/images/news_carousel/LO.jpg"
     -
       title: "AN UN-HERO'S JOURNEY"
       date: "October 2023"
