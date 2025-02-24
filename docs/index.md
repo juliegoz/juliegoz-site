@@ -24,6 +24,11 @@ news:
   section_title: UPDATES
   news_carousel:
     - 
+      title: "LAW AND ORDER"
+      date: "January 2024"
+      text: "In the wake of a murder on campus, the line between free speech and hate speech at a university is examined."
+      image_url: "assets/images/news_carousel/L&O.jpg"
+    -
       title: "AN UN-HERO'S JOURNEY"
       date: "October 2023"
       text: "Featuring a book, music, and lyrics by Brett Macias and additional book and lyrics by Jessica Carmona, the new musical is based on events from Macias’ life. The story follows Hector Gonzalez and his half-sister, Jasmine, as they travel to Costa Rica in search of their father, who went missing under mysterious circumstances six years earlier."
@@ -61,8 +66,4 @@ Vanishing Girl is a powerful new musical by William Yanesh (music and lyrics) an
       text: "This original and innovative production features six auteur directors, a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
       image_url: "assets/images/news_carousel/crystal.jpg"
     - 
-      title: "CAT IN THE HAT AT ADVENTURE THEATRE"
-      date: "June - August, 2019"
-      text: "From the moment his tall, red-and-white-striped hat appears around the door, Sally and her brother know that the cat in the hat is the funniest, most mischievous cat they have ever met. With the trickiest of tricks and craziest of ideas, he is certainly fun to play with. But what will mom find when she gets home?"
-      image_url: "assets/images/news_carousel/Louis-E_-Davis-as-The-Cat-Caroline-Wolfs.jpg"
 ---
