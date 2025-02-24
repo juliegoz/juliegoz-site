@@ -61,9 +61,4 @@ Vanishing Girl is a powerful new musical by William Yanesh (music and lyrics) an
       text: "The 4th annual WOMXN on Fire Festival at Keegan Theatre. \n Over the course of a week, audiences had the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
       image_url: "assets/images/news_carousel/WOMXN-on-Fire-Logo-Square_edited_edited.jpg"
     - 
-      title: "CRYSTAL CREEK MOTEL AT FLYING V"
-      date: "October - November, 2019"
-      text: "This original and innovative production features six auteur directors, a stellar ensemble of actors, and a complement of Flying V’s finest designers, teaming together to tell twelve distinct stories set in the same motel room over the course of a year."
-      image_url: "assets/images/news_carousel/crystal.jpg"
-    - 
 ---
