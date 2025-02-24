@@ -60,5 +60,4 @@ Vanishing Girl is a powerful new musical by William Yanesh (music and lyrics) an
       date: March 2020
       text: "The 4th annual WOMXN on Fire Festival at Keegan Theatre. \n Over the course of a week, audiences had the opportunity to interact with an exciting and eclectic group of new works, emerging playwrights, and directors and performers."
       image_url: "assets/images/news_carousel/WOMXN-on-Fire-Logo-Square_edited_edited.jpg"
-    - 
 ---
