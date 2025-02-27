@@ -6,6 +6,6 @@ resumes:
     path_pdf: "/assets/images/resume.jpg"
     path: "/assets/images/resume.jpg"
   - title: HEADSHOT
-    path_pdf: "/assets/images/julieta-gozalo-michaud-DSCF8102.jpg"
-    path: "/assets/images/julieta-gozalo-michaud-DSCF8102.jpg"
+    path_pdf: "/assets/images/Untitled 2.jpg"
+    path: "/assets/images/jUntitled 2.jpg"
 ---
