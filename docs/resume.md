@@ -7,5 +7,5 @@ resumes:
     path: "/assets/images/resume.jpg"
   - title: HEADSHOT
     path_pdf: "/assets/images/Untitled 2.jpg"
-    path: "/assets/images/jUntitled 2.jpg"
+    path: "/assets/images/Untitled 2.jpg"
 ---
